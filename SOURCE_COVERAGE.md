@@ -1,6 +1,6 @@
 # Source Coverage Ledger
 
-Updated: 2026-09-15
+Updated: 2026-09-15 14:16Z
 
 Purpose: prevent the investigation from repeatedly searching the same few sources while silently leaving entire evidence classes unchecked. A category is not 'covered' merely because one search result was read. Each hourly research pass should add newly checked sources, contradictions, and remaining gaps.
 
@@ -8,7 +8,7 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 
 - **A — Direct project/runtime evidence:** conversation trajectory, tool outputs/logs, canonical project source documents, generated artifacts.
 - **B — Primary scientific/technical evidence:** peer-reviewed paper, primary benchmark paper, official technical documentation/report.
-- **C — Primary implementation evidence:** maintainer issue tracker, reproducible bug report, source code, official changelog.
+- **C — Primary implementation evidence:** maintainer issue tracker, reproducible bug report, source code, official changelog, or primary preprint awaiting peer review.
 - **D — Community evidence:** forums, Reddit, user reports, discussions. Useful for finding repeated patterns, never sufficient by itself to assert model internals.
 - **E — Secondary commentary:** articles, summaries, opinion/analysis. Use mainly to discover primary sources or contextualize them.
 
@@ -44,6 +44,16 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - Context Rot technical experiments
 - ACON / context optimization work
 - long-horizon context-management work
+- U-Fold: Dynamic Intent-Aware Context Folding for User-Centric Agents (ACL Findings 2026)
+- MT-OSC: One-off Sequential Condensation (ACL Findings 2026)
+- Chain-of-Interactions dialogue summarization (EMNLP Findings 2025; surfaced, deeper methods review pending)
+
+### Multi-turn structure / evolving intent
+- LLMs Get Lost in Multi-Turn Conversation (ICLR 2026)
+- StructFlowBench (ACL Findings 2025)
+- EvolIF / One Battle After Another (ACL 2026)
+- MultiChallenge (ACL Findings 2025)
+- mtRAG / MTRAG-UN (TACL 2025 / ACL Findings 2026; surfaced, deeper applicability review pending)
 
 ### Instruction and constraint following
 - AgentIF
@@ -66,6 +76,7 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - Tool-Reflection-Bench / structured reflection
 - FAMA
 - RAFFLES
+- ParaRecover (index surfaced; original manuscript still requires direct verification)
 
 ### Self-correction / feedback
 - TACL critical survey on self-correction
@@ -83,11 +94,22 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - PhotoMaker
 - ConsistentID
 - Persistent Identity Preservation benchmark/preprint
+- Selectively Informative Description / undesired embedding entanglement (CVPR 2024)
+- DynamicID (ICCV 2025; surfaced, deeper review pending)
+- CogCanvas (2026 preprint; surfaced, deeper review pending)
+- DEADiff reference style/semantic disentanglement (CVPR 2024; relevant analogy, not identity-specific)
+
+### Iterative / multi-turn image editing
+- FreqEdit: Preserving High-Frequency Features for Robust Multi-Turn Image Editing (CVPR 2026)
+- Improving Editability in Image Generation with Layer-wise Memory + Multi-Edit Bench (CVPR 2025)
+- AnchorEdit: Maintaining Temporal Consistency in Multi-turn Image Editing via Causal Memory (2026 preprint)
+- ProductConsistency (2026 preprint; product identity, surfaced, deeper review pending)
 
 ## Official documentation / product evidence
 - OpenAI: Creating images with ChatGPT (multiple-reference guidance and explicit reference roles)
+- OpenAI: Introducing ChatGPT Images 2.5 (2026-09-08; subject preservation, focused edits, multi-turn consistency claims)
 - OpenAI current model/reasoning guidance (outcome-first prompts, stopping criteria, higher reasoning not automatically better)
-- OpenAI current image-generation capability/release material where relevant
+- OpenAI current image-generation model documentation where relevant
 - GitHub/OpenAI documentation for image/tool transport and current automation capabilities
 
 ## Implementation/community corpus
@@ -104,6 +126,7 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - long-session instruction drift
 - image edit/reference transport failures across client surfaces
 - agent loop/retry behavior in major agent frameworks
+- current Images 2.5 reports specifically testing claimed multi-turn preservation improvements
 
 ## Current highest-value falsification tests
 
@@ -113,6 +136,12 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 4. Run independent artifact QA rather than asking the generator to approve itself.
 5. Measure pass^k across varied Susan scenes rather than judging one successful generation.
 6. Invalidate and refuse exact retry fingerprints after a failed generation/tool call.
+7. Compare recursive edit-from-latest against edit-from-last-accepted-base + immutable canonical identity anchor.
+8. Measure unrequested-region drift separately from requested edit success.
+
+## Automation state needing inspection
+
+At the 14:16Z research pass, `runs/` contained the prior ChatGPT research note but no deterministic quarter-hour collector artifacts. Repository read/write access works. The collector workflow/logs therefore need direct inspection before treating that source-discovery channel as operational.
 
 ## Coverage rule
 
