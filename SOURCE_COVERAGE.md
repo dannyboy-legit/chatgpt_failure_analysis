@@ -1,6 +1,6 @@
 # Source Coverage Ledger
 
-Updated: 2026-09-15 15:15Z
+Updated: 2026-09-15 16:17Z
 
 Purpose: prevent the investigation from repeatedly searching the same few sources while silently leaving entire evidence classes unchecked. A category is not 'covered' merely because one search result was read. Each hourly research pass should add newly checked sources, contradictions, and remaining gaps.
 
@@ -8,7 +8,7 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 
 - **A — Direct project/runtime evidence:** conversation trajectory, tool outputs/logs, canonical project source documents, generated artifacts.
 - **B — Primary scientific/technical evidence:** peer-reviewed paper, primary benchmark paper, official technical documentation/report.
-- **C — Primary implementation evidence:** maintainer issue tracker, reproducible bug report, source code, official changelog, or primary preprint awaiting peer review.
+- **C — Primary implementation/preprint evidence:** maintainer issue tracker, reproducible bug report, source code, official changelog, or primary preprint awaiting peer review.
 - **D — Community evidence:** forums, Reddit, user reports, discussions. Useful for finding repeated patterns, never sufficient by itself to assert model internals.
 - **E — Secondary commentary:** articles, summaries, opinion/analysis. Use mainly to discover primary sources or contextualize them.
 
@@ -48,6 +48,14 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - MT-OSC: One-off Sequential Condensation (ACL Findings 2026)
 - Chain-of-Interactions dialogue summarization (EMNLP Findings 2025; deeper methods review pending)
 
+### Multimodal long-context / visual forgetting — NEWLY EXPANDED
+- MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models (2026 preprint; abstract/results checked, methods/ablations pending)
+- Remember-R1: Mitigating Long-Context Visual Forgetting through Reinforcement Learning (2026 preprint; abstract checked, attention/ablation details pending)
+- Take-along Visual Conditioning for Multi-modal Long CoT Reasoning (2025 preprint; key image-removal ablation checked)
+- Learning When to Look / strategic perception (2025 preprint; surfaced, deeper review pending)
+- More Thought, Less Accuracy? / VAPO (2025 preprint; surfaced, deeper review pending)
+- Multimodal Retrieval Heads in Long-Context VLMs (2026 preprint; surfaced, causal masking result checked at abstract level)
+
 ### Multi-turn structure / evolving intent / state
 - LLMs Get Lost in Multi-Turn Conversation (ICLR 2026)
 - StructFlowBench (ACL Findings 2025)
@@ -55,6 +63,7 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - MultiChallenge (ACL Findings 2025)
 - mtRAG / MTRAG-UN (TACL 2025 / ACL Findings 2026; deeper applicability review pending)
 - StateMemBench / Can Agent Memory Systems Track Evolving State? (2026 preprint; abstract/results checked, methods/ablations pending)
+- SEQUOR: A Multi-Turn Benchmark for Realistic Constraint Following (2026 preprint; full web text substantially reviewed: Single/Tuples/Add/Replace/Everything regimes and judge validation)
 
 ### Instruction and constraint following / verification
 - AgentIF
@@ -80,6 +89,11 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - FAMA
 - RAFFLES
 - ParaRecover (index surfaced; original manuscript still requires direct verification)
+- CAR / ToolHop-Pro: Dynamic Tool Synthesis + Global Trajectory Rectification (Findings ACL 2026; abstract/motivation checked)
+- Fission-GRPO: Learning to Recover from Execution Errors (ACL 2026; abstract/results checked)
+- AgenticRAGTracer (Findings ACL 2026; surfaced: collapse vs over-extension failure diagnosis, deeper review pending)
+- WindowsWorld (Findings ACL 2026; surfaced, deeper review pending)
+- LongCLI-Bench (Findings ACL 2026; surfaced, deeper review pending)
 
 ### Self-correction / feedback
 - TACL critical survey on self-correction
@@ -147,12 +161,16 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 8. Compare recursive edit-from-latest against edit-from-last-accepted-base + immutable canonical identity anchor.
 9. Measure unrequested-region drift separately from requested edit success.
 10. Score multi-reference tasks by Anchor/Disentangle/Apply/Compose operators rather than one holistic quality score.
+11. Compare early-only reference inspection against a late visual re-ground immediately before generation.
+12. Compare text-compressed identity state against immutable retrievable canonical pixels + symbolic role state.
+13. Compare an accumulated execution packet against a freshly recompiled active-only packet after override/rollback.
+14. Classify failed routes as LOCAL_REPAIR vs ROUTE_INVALIDATING and measure whether forced global replanning reduces repeated failures.
 
 ## Automation state
 
-Correction to the 14:16Z note: the deterministic collector was mistakenly sought under `runs/`, but `research.yml` and `collect_sources.py` write timestamped artifacts under `source_queue/`. Direct repository inspection at 15:15Z found multiple queue files from 12:58Z through at least 14:56Z. The collector is operational. The earlier claim that collector artifacts were absent is retracted as an inspection-path error.
+The deterministic collector is producing source_queue files through at least 2026-09-15 15:54Z, so its scheduler/commit path remains operational. However, the inspected 15:54Z queue recorded eight arXiv collection errors in one pass (read timeouts and HTTP 429 responses), while GitHub issue collection continued. Academic discovery is therefore degraded and incomplete even though the workflow itself is alive.
 
-Observed timestamps need not equal cron minutes exactly because scheduled workflow dispatch can be delayed. Health should be assessed by continuing source_queue creation/commits and collector content quality, not exact dispatch second.
+Do not use collector output as a completeness claim. Direct hourly research remains required. Candidate collector improvements to inspect before changing code: exponential backoff/jitter, query staggering, caching/deduplication, and bounded retries.
 
 ## Coverage rule
 
