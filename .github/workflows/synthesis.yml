@@ -1,0 +1,42 @@
+name: Failure Analysis Synthesis
+
+on:
+  schedule:
+    - cron: '58 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  models: read
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Update master diagnosis
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/synthesize.py
+      - name: Commit synthesis
+        shell: bash
+        run: |
+          if git status --porcelain | grep -q .; then
+            git config user.name 'failure-analysis-bot'
+            git config user.email 'failure-analysis-bot@users.noreply.github.com'
+            git add MASTER_DIAGNOSIS.md
+            git commit -m "Synthesize failure analysis $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            for attempt in 1 2 3 4; do
+              git pull --rebase origin main && git push origin HEAD:main && exit 0
+              sleep $((attempt * 5))
+            done
+            exit 1
+          else
+            echo 'No synthesis change to commit.'
+          fi
