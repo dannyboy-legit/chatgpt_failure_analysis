@@ -2,7 +2,7 @@ name: Failure Analysis Synthesis
 
 on:
   schedule:
-    - cron: '58 * * * *'
+    - cron: '15 * * * *'
   workflow_dispatch:
 
 permissions:
