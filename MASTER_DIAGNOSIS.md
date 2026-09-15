@@ -1,110 +1,174 @@
 # Master Diagnosis
 
-Updated: 2026-09-15T12:54Z
+Updated: 2026-09-15T22:19Z
 
-This document separates observed failures from plausible mechanisms. It does not claim access to private model internals. Mechanisms are ranked by how directly they are supported by the conversation/project evidence and external research.
+This document consolidates the scheduled research sequence. It separates direct project/runtime evidence from external research and does not claim access to private model internals.
 
-## 1. Strongest supported mechanisms
+## Executive diagnosis
 
-### A. Source authority is documented but not reliably converted into action gates — HIGH confidence
+The dominant failure is not missing instructions. The project already contains unusually explicit rules for identity, physique, scale, camera, realism, continuity and editing. The failure is the unreliable conversion of those sources into a small, current, provenance-correct execution state; reliable transport of that state and its visual references into tools; correct cross-modal binding into pixels; and artifact-level verification before state is committed.
 
-The Real Giantess project documents already specify a modular authority system: Susan's canonical face references govern facial identity; physique references govern body anatomy/silhouette; scene instructions govern pose, expression, hairstyle arrangement, environment, camera and related variation. Susan Character Bible v5 explicitly says reference images are guides rather than pasted assets, that facial identity is invariant to hairstyle/pose/lighting/expression, and that the nearest facial/physique reference should be selected by camera angle. The observed workflow repeatedly knew these rules yet generated before enforcing them.
+A reliable workflow therefore needs a controller, not more prose: source/version authority → active-state compilation → reference-role disentanglement → pre-commit validation → verified tool transport → generation/edit → constraint-vector QA → transactional commit/rollback → trajectory-health monitoring.
 
-This is more consistent with an execution/control failure than with missing instructions. The corrective mechanism must therefore be structural: compile source rules into machine-checkable preconditions before generation rather than merely restating them in prose.
+## 1. Highest-confidence mechanisms
 
-### B. Declarative recall can dissociate from behavioral adherence — HIGH confidence
+### A. Source authority is documented but not enforced — HIGH
+Susan v5 explicitly separates Facial Identity, Physique and Scale; canonical visual references outrank prose for their governed attributes; nearest-angle face/physique references are selected rather than averaged; pose/camera do not redefine identity or physique. Project Continuity Rules say an edit preserves identity, physique, clothing, camera/framing, lighting/mood, environment, scale relationships and composition unless specifically changed. Observed failures repeatedly knew these rules yet acted without enforcing them.
 
-The conversation repeatedly shows the assistant accurately restating a constraint after violating it, including reference roles, wallpaper aspect ratio, identity preservation and GitHub access state. This pattern is independently consistent with 2026 DriftBench results ('Models Recall What They Violate'), which report a knows-but-violates phenomenon: models can restate constraints they fail to obey during iterative work.
+### B. Source-version conflict is real inside the project corpus — HIGH, direct evidence
+The Library contains contradictory Susan rules. Current Susan v5 says changing height changes absolute size only and does not alter anatomical proportions. The older Dynamic Scale Addendum says growth proportionally develops shoulders/legs/musculature and still names older Chloe-based face references. Therefore broad semantic retrieval can return stale but relevant rules that conflict with current canon. A version/supersession gate is mandatory.
 
-Implication: asking the same model whether it understands the rule is not a meaningful control. Verification must inspect the planned action or resulting artifact.
+### C. Declarative recall and behavioral adherence dissociate — HIGH
+The conversation repeatedly contains correct restatements immediately after violations. DriftBench independently reports a knows-but-violates phenomenon. Asking whether the model understands a rule is not a control.
 
-### C. Long, constraint-heavy agent contexts are intrinsically fragile — HIGH confidence as a general mechanism; MEDIUM as the cause of any single Susan failure
+### D. Multi-turn path dependence and evolving state are distinct from raw context length — HIGH
+Research on long/multi-turn interaction shows early assumptions and sequential constraints can degrade reliability even when information remains available. StateMemBench-style evidence supports explicit supersession/current-state representation. A chronological summary can faithfully preserve a wrong branch. Failed and overridden branches must be excluded from active execution state while remaining in audit history.
 
-AgentIF (NeurIPS 2025) evaluates realistic agent prompts averaging 1,723 words and 11.9 constraints and finds major failures particularly around complex constraint structures and tool specifications. Lost in the Middle, Chroma's Context Rot experiments, LIFBench, and later work show that long input length, position and distractors can reduce effective use of relevant information even within nominal context windows. A 2025 EMNLP paper further reports performance degradation from sheer input length even when relevant evidence is perfectly retrieved.
+### E. Long context and redundant constraints remain risk multipliers — HIGH general; MEDIUM per individual failure
+AgentIF, Lost in the Middle, LIFBench, Context Rot and related work show nominal context capacity does not imply uniform effective use. Constraint-heavy contexts are fragile. Additional redundant reminders can also interfere. The execution packet should be compact, normalized and active-only.
 
-The Susan thread contains long accumulated history, multiple project versions, tool schemas, generated failures and repeated restatements. That makes raw full-context dependence a poor reliability strategy. The correction is not simply 'use a bigger context window'; it is to distill an authoritative working state immediately before action.
+### F. Visual grounding can decay during long reasoning — HIGH general multimodal evidence
+ACL 2026 Look Light, Think Heavy and Visually-Guided Policy Optimization show that extended multimodal reasoning can reduce visual grounding/attention; Remember-R1 and related work target the same failure. Therefore reference inspection should be re-grounded late, close to generation and QA. More reasoning is not automatically safer for perception-heavy gates.
 
-### D. Reference identity and scene variation are separate objectives; over-conditioning can cause copy-paste behavior — HIGH confidence
+### G. Identity preservation and scene variation are separate objectives — HIGH
+WithAnyone and related identity-conditioning work identify copy-paste/reference leakage: preserving identity can wrongly preserve pose/expression/lighting/presentation. Susan's own Bible already says identity is invariant to pose, hairstyle, lighting and expression. Canonical face pixels define who Susan is, not the whole photograph.
 
-WithAnyone (ICLR 2026) explicitly identifies a copy-paste failure in identity-consistent generation: reconstruction-driven systems may reproduce the reference face rather than preserve identity across natural pose, expression or lighting changes. This closely matches the user's complaint that a Susan face reference must define who she is, not freeze expression, hairstyle or head posture.
+### H. Multi-reference conditioning needs explicit role separation — HIGH
+TRACE-Bench, MultiRef, generalized multi-image editing and related work show reference binding/disentanglement is difficult. Each reference needs allowed and forbidden contributions. Face reference: facial geometry only. Physique reference: anatomy/silhouette only. Pose reference: pose/camera only. Scene request: expression/gaze/hair/clothing/environment/etc. where not otherwise locked.
 
-The correct target is identity invariance + contextual variation. Face geometry is a hard identity constraint; expression/head orientation/hair arrangement are separately synthesized from the scene.
+### I. Correct symbolic state does not guarantee correct visual binding — HIGH as architecture principle
+Cross-modal research shows that text planning quality and image-generation capability do not ensure correct reciprocal grounding. Constraints need observable visual predicates and artifact evidence must map back to the same constraint IDs. This is CROSS_MODAL_CLOSURE.
 
-### E. Multi-reference conditioning is itself difficult and needs explicit role separation — HIGH confidence as a general image-generation limitation
+### J. Reference availability is not proof of reference transport — MEDIUM-HIGH tool-path risk
+Public implementation reports document cases where reference files exist in context but are not actually delivered to image generation. These reports do not prove the exact ChatGPT runtime mechanism, but they establish transport as a separate precondition. Required reference pixels must be verified as actual tool inputs; filenames/descriptions are insufficient.
 
-MultiRef (ACM MM 2025) reports that even strong systems degrade on multi-reference conditioning relative to single-reference tasks. MMIG-Bench (NeurIPS 2025) evaluates identity preservation separately from prompt-image alignment and visual artifacts. This supports decomposing Susan's references by role and evaluating each dimension separately rather than supplying a large undifferentiated bundle of images.
+### K. Iterative editing accumulates drift — HIGH
+FreqEdit, AnchorEdit, MT-EditFlow and related work show sequential edits can progressively degrade identity/detail and propagate errors. The latest accepted image cannot replace immutable canonical identity/physique anchors. Track cumulative trajectory health and rebase from a clean ancestor when thresholds are crossed.
 
-### F. Reference availability in the reasoning context does not prove pixel conditioning reached the image backend — MEDIUM-HIGH confidence as a tool-path risk
+### L. Preservation is a two-sided edit contract — HIGH
+PIE-Bench/CompBench/GEditBench-style evaluation separates edit success from untouched-region preservation. Over-editing and under-editing are both failures. The contract is MUST_CHANGE + MUST_NOT_CHANGE + RECOMPUTE_FROM_CANONICAL.
 
-The conversation contains an actual earlier mismatch between being able to inspect Library images and being unable to materialize/pass them as raw image inputs. Public OpenAI Codex issue #30121 describes a similar class of failure where a reference file exists and is named in the prompt, but the image-generation backend does not receive its pixels and produces an unrelated image.
+### M. Protected semantic state is not raw pixel invariance — HIGH, direct project evidence
+The updated Documentary Cinematography Bible's re-capture layer says identity/core anatomy stay stable while skin reflectivity, highlights, tonal response, atmosphere, exposure and camera imperfections legitimately vary with environmental capture. QA must distinguish geometric/semantic invariants from photometric covariates. For a local edit, lighting/mood remain semantically stable unless requested, but physically plausible sensor-level variation is not automatically drift.
 
-This issue report is not evidence that the exact same Codex regression caused the ChatGPT failure. It is evidence that end-to-end reference transfer is a distinct precondition that must be verified. The workflow should fail closed if a required reference cannot be attached as a visual input.
+### N. Self-critique and generic judges are insufficient — HIGH
+The TACL self-correction survey weakens intrinsic self-correction as a reliability mechanism. MCJudge/AgentProp-style evidence shows automated judges can miss partial failures and simple heuristic judges can be extremely unreliable. Use per-constraint QA with deterministic checks where possible; semantic judges require calibration/stability checks.
 
-### G. Intrinsic self-critique is not a sufficient QA mechanism — HIGH confidence
+### O. Rejection and recovery are different capabilities — MEDIUM-HIGH
+AgentProp-Bench reports parameter-level errors frequently propagate and that rejection of corrupted inputs and recovery after accepting them are statistically independent. Measure PRE_COMMIT_REJECTION and POST_FAILURE_RECOVERY separately.
 
-A TACL 2024 critical survey of LLM self-correction finds little evidence for reliable prompted intrinsic self-correction except in unusually suitable tasks, while reliable external feedback materially improves correction. In the conversation, prose explanations of what went wrong frequently preceded another similar failure.
+### P. Retry loops require structural invalidation — HIGH
+Repeated failed routes should be fingerprinted and invalidated. Local malformed-argument errors permit local repair; wrong reference authority, wrong edit base, missing required pixels, stale state or recurring identity route invalidate the whole plan. Runtime enforcement is stronger than reminders.
 
-Therefore post-generation QA must be grounded in observable artifact checks and hard acceptance criteria, not only the generator's own narrative confidence.
+### Q. State mutation must be transactional — HIGH architecture principle
+Tool/artifact results are provisional until verified. `current_edit_base`, reference availability, workflow health and accepted character state mutate only after hard gates pass. Ambiguity/failure rolls back. This prevents an incorrect intermediate result from becoming new truth.
 
-### H. Retry loops need runtime enforcement, not more reminders — HIGH confidence
+### R. Constraint provenance must survive every boundary — HIGH architecture principle
+Every compiled field needs source_id, source class, authority rank, scope, validity/supersession status and observable predicate. Generated descendants, QA outputs and historical retrieval are evidence, not authority. Silent migration of authority from canonical Susan references to generated descendants is AUTHORITY_REBINDING.
 
-The conversation repeatedly regenerated after failure without materially changing the plan. Multiple independent 2026 agent implementation issues report the same family of behavior: identical or near-identical failed tool calls continue despite textual warnings, and developers propose call fingerprints, bounded retries and hard circuit breakers.
+## 2. Weakened/rejected explanations
 
-These implementation reports do not establish ChatGPT's internal architecture. They do strongly support a controller principle: warnings are weaker than enforcement. A failed generation should invalidate its exact plan fingerprint. The same plan must not run again without a material change.
+- Instructions were missing — rejected for core Susan failures.
+- More prose reminders will solve it — strongly weakened.
+- Bigger context alone solves continuity — rejected.
+- All relevant project documents can safely be retrieved together — rejected by direct version conflict.
+- If a file is visible/named, generation necessarily receives its pixels — rejected as an assumption.
+- More reasoning is always safer — rejected for perception-heavy multimodal gates.
+- One successful image proves reliability — rejected; use repeated varied trials/reliable@k/pass^k.
+- Latest accepted image can become the sole identity source — rejected; canonical anchor remains immutable.
+- Pixel sameness is the correct preservation metric — rejected; use typed semantic/geometric vs photometric invariance.
+- One holistic visual judge is sufficient — rejected/strongly weakened.
+- Good pre-action rejection implies good post-fault recovery — rejected.
+- Formalizing rules automatically solves the problem — weakened; source→IR translation can itself be wrong and must be validated.
 
-### I. Premature action and unsupported capability claims are a recurring agent reliability failure — HIGH confidence
+## 3. Consolidated controller
 
-CAR-bench (ACL 2026) finds frontier reasoning models below 50% on disambiguation tasks due to premature actions and documents fabrication/policy violations when tools or information are missing. In this conversation the assistant generated before resolving reference transport, and later asserted an interactive GitHub authorization problem before checking repository access. This mechanism is directly observable here.
+### Stage 0 — Source/version gate
+Inventory candidate sources. Mark canonical, superseded, historical-only. Resolve contradictions before compilation. Current source authority beats stale semantically similar documents.
 
-Corrective control: action is prohibited until required state/tool claims have been empirically checked in the current run.
+### Stage 1 — Provenance IR
+For every constraint record:
+`constraint_id | value | source_id | source_class | authority_rank | scope | valid_from | valid_until | supersedes | hard/soft | observable_predicate`.
 
-### J. Single-run success is not evidence of a reliable workflow — HIGH confidence
+### Stage 2 — Active-state compiler
+Classify turn: new scene / refinement / local edit / override / rollback / continuation / critique-only. Rebuild from persistent + active constraints after rollback/material override. Do not carry rejected branch state into generation.
 
-Tau-bench introduced pass^k to capture consistency over repeated trials and found state-of-the-art function-calling agents below 50% task success with pass^8 below 25% in retail. ReliabilityBench extends this idea to repeated execution, semantic perturbation and injected tool faults. A Susan workflow that produces one good image after several failures has not demonstrated reliability.
+### Stage 3 — Authority DAG / reference roles
+Susan face: nearest-angle canonical face → facial geometry only.
+Susan physique: nearest-angle canonical physique → anatomy/silhouette only.
+Pose reference: joint/body/camera geometry only.
+Accepted base: current composition/environment/camera for edits.
+Scene instruction: requested delta and scene variables.
+Explicitly encode forbidden contributions from each reference.
 
-The project needs repeated-trial metrics across intentionally varied scenes, poses, expressions, lighting and scale while identity/physique remain fixed.
+### Stage 4 — Typed edit contract
+`MUST_CHANGE`, `MUST_NOT_CHANGE`, `RECOMPUTE_FROM_CANONICAL`.
+Split invariants into semantic/geometric locks and legitimate photometric covariates.
 
-## 2. Weakened or rejected explanations
+### Stage 5 — Perception/reference gate
+Directly inspect/re-ground required canonical pixels close to action. Keep visual verification concise; do not replace it with long textual reconstruction. If identity is too small/occluded for reliable judgment, return UNVERIFIABLE rather than PASS.
 
-- **'The instructions were missing.'** Rejected for the core Susan failures. The latest Character Bible and other project documents already encode the necessary role separation and preservation rules.
-- **'More prose reminders will solve it.'** Strongly weakened. Both the conversation and instruction-following research show that explicit constraints can be recalled yet violated.
-- **'A bigger context window alone solves continuity.'** Rejected. Long-context research shows nominal capacity and effective use are different.
-- **'If the model can see/reference a file, image generation must be conditioned on it.'** Rejected as an assumption. End-to-end tool transport requires verification.
-- **'The same model's self-critique is enough to approve its own output.'** Strongly weakened; external/observable feedback is needed.
-- **'A successful image proves the system is fixed.'** Rejected; reliability must be measured over repeated varied trials.
+### Stage 6 — Tool/transport preconditions
+Verify required reference pixels are actual visual inputs; verify current edit base; verify requested tool capability. Fail closed if a hard prerequisite is missing.
 
-## 3. Corrective controller
+### Stage 7 — Pre-commit audit
+Check source versions, authority conflicts, required references, edit delta, protected invariants, geometry anchors, retry fingerprint and tool contract before execution.
 
-Before an image/tool action, compile a small authoritative state object from sources rather than relying on the entire chat. It must contain: goal, canonical identity authority, physique authority, scene-variable authority, protected invariants, requested variables, tool prerequisites, tool-input proof, and hard acceptance tests.
+### Stage 8 — Execute once
+Record fingerprint of active state + references + roles + camera + scale + delta. Do not repeat a failed fingerprint unchanged.
 
-For Susan specifically:
+### Stage 9 — Constraint-vector artifact QA
+Hard axes: identity, physique, requested edit presence, protected-region/semantic preservation, camera/geometry lock, scale anchors, required reference-specific attributes.
+Soft axes: photographic/material realism, naturalness, capture imperfections where appropriate.
+No average score may compensate for a hard FAIL. UNVERIFIABLE is distinct from PASS.
 
-1. **Identity state:** choose one nearest-angle canonical face reference for geometry only. Explicitly mark expression, gaze, hairstyle arrangement and head posture as scene variables unless the user locks them.
-2. **Physique state:** choose one nearest-angle physique reference for anatomy/silhouette only. Do not allow face, clothing or scene composition to bleed from this reference.
-3. **Scene state:** independently design pose/expression/gaze/hair from what Susan is doing and from composition needs. This is where novelty belongs.
-4. **Reference transport gate:** prove the chosen visual references are actual image inputs to the generator. A filename, Library lookup or textual description is not proof. If visual transport is unavailable, stop rather than silently degrade to prompt-only generation.
-5. **Wallpaper gate:** verify landscape target/aspect ratio and composition/negative space before generation.
-6. **One generation attempt:** record a fingerprint of references + role map + scene plan + camera + scale + prompt. Do not repeat the same fingerprint after failure.
-7. **Artifact QA:** independently score at least identity, physique, expression/head/hair variation, pose mechanics, scale geometry, camera realism, material realism, wallpaper composition and unrequested changes. Any hard-axis failure rejects the result regardless of overall attractiveness.
-8. **Repair selection:** diagnose the earliest failed layer (source state, reference transport, prompt binding, generation, QA) and modify that layer only. Do not add generic prompt volume as the default fix.
-9. **Reliability logging:** record pass/fail by dimension across varied scenes. Track repeatability rather than anecdotal best cases.
+### Stage 10 — Cross-modal closure
+For every hard constraint, require observable visual evidence tied back to its constraint ID. A sentence in the prompt is not proof of pixel-level satisfaction.
 
-## 4. Current external evidence set
+### Stage 11 — Transactional commit/rollback
+Only a fully accepted artifact becomes current_edit_base. Failed/ambiguous artifacts remain diagnostic evidence only.
 
-Primary/peer-reviewed or primary technical sources currently examined include: Susan Character Bible v5 and the Real Giantess project realism/cinematography/continuity documents; AgentIF; Lost in the Middle; Context Rot; LIFBench; Context Length Alone Hurts LLM Performance Despite Perfect Retrieval; FollowBench; ComplexBench; CFBench; EIFBench; tau-bench; GAIA; OSWorld; AgentBoard; ReliabilityBench; CAR-bench; AgencyBench; ReAct; Reflexion; Self-Refine; the TACL critical survey of self-correction; FAMA; Tool-Reflection-Bench; WithAnyone; MMIG-Bench; MultiRef; T2I-CompBench; InstantID; PhotoMaker; ConsistentID; and the September 2026 Persistent Identity Preservation benchmark.
+### Stage 12 — Trajectory health
+Track cumulative identity drift from canonical anchor, protected-scene drift from clean ancestor, camera/scale-anchor displacement and material/detail degradation. Rebase when thresholds are exceeded.
 
-Supporting implementation/community evidence includes public issue reports on image-reference transfer failures and repeated tool-call loops. These are treated as anecdotes/implementation evidence, not proof of ChatGPT internals.
+## 4. Reliability tests
 
-## 5. Unresolved questions / next experiments
+1. Cousin prompts must compile to the same normalized state.
+2. Stale-source negative control: v5 + Dynamic Scale Addendum must resolve to v5, not merge contradictions.
+3. Pose-reference contamination control: different person's pose image must not acquire identity/physique authority.
+4. Single nearest-angle face reference vs multi-view reference test.
+5. End-to-end reference transport marker/control.
+6. Compact active state vs raw long thread.
+7. Fresh active-only recompilation vs accumulated packet after rollback.
+8. Recursive edit vs clean-ancestor rebase + canonical anchor.
+9. MUST_CHANGE anti-under-edit and MUST_NOT_CHANGE anti-over-edit gates.
+10. Short direct visual grounding vs extended CoT for identity/reference verification.
+11. Separate rejection and recovery fault-injection tests.
+12. pass^k/reliable@k across materially varied Susan scenes.
 
-- Quantify how much a compact authority-state summary improves compliance compared with raw full-thread context for the same Susan task.
-- Test one face reference vs several face references while holding scene constant, measuring both identity fidelity and copy-paste/variation.
-- Test whether selecting the nearest-angle reference outperforms supplying all facial views simultaneously.
-- Separate reference-transport failure from model identity-generation failure using an unmistakable visual marker/reference-control experiment.
-- Build a pass^k Susan benchmark: same identity/physique across at least 8 materially different scene conditions.
-- Evaluate whether an independent visual QA pass catches identity/physique failures before user intervention more reliably than generator self-critique.
-- Continue searching new academic work, official documentation, implementation issues and forum reports for contradictory evidence and alternative mechanisms.
+## 5. Evidence grading
 
-## 6. Research automation state
+A — direct project/runtime evidence: Susan v5/v4.3, Dynamic Scale Addendum contradiction, Documentary Cinematography UPDATED v2, Realism/Continuity rules, observed conversation/tool failures.
 
-The original GitHub worker failed because it used the retired GitHub Models inference endpoint and received HTTP 410. It has been replaced with a deterministic quarter-hour source collector that gathers fresh arXiv and GitHub issue candidates without outsourcing reasoning to Copilot. An hourly ChatGPT task now performs the analysis itself, is instructed to read primary sources deeply, re-check the project source documents, falsify prior hypotheses, track uncovered areas and update the research state when repository tools are available. The :15 GitHub workflow now builds a mechanical source index instead of calling the retired model endpoint.
+B — peer-reviewed/primary scientific evidence: AgentIF; ACL/EMNLP long-context and multimodal-grounding papers; tau-bench; CAR-bench; WithAnyone; TRACE-Bench; FreqEdit; PIE-Bench family; instruction-hierarchy/verification work.
+
+C — primary preprints/implementation evidence: AgentProp-Bench; newer identity/editing benchmarks; public implementation issue reports. These support mechanisms but do not prove private ChatGPT internals.
+
+D/E — community/secondary sources: discovery/support only, never promoted alone.
+
+## 6. Research-process findings
+
+The deterministic collector did produce source_queue artifacts; an earlier claim that it was absent was caused by inspecting the wrong directory and was retracted. Some collector passes encountered arXiv timeouts/HTTP 429s, so automated academic discovery was incomplete and direct search remained necessary. Repository reads/writes succeeded throughout later passes.
+
+## 7. Remaining work
+
+- Locate/reconcile standalone Anatomy Addendum and Simplified Rules if stored under non-obvious names.
+- Inspect canonical Susan visual reference assets directly and run nearest-angle vs multi-view tests.
+- Implement the source-to-IR compiler and run stale-source/authority-rebinding negative controls.
+- Establish geometry/semantic edit-locality metrics tolerant of legitimate photometric recapture.
+- Build a repeatable Susan reliability benchmark across scene, pose, expression, lighting and scale variation.
+- Validate preprint-only mechanisms as peer-reviewed evidence becomes available.
+
+## Bottom line
+
+The accumulated evidence increasingly rejects an instruction-writing diagnosis. The project already specified the intended behavior. Reliability depends on enforcing current source authority, preserving provenance, keeping canonical visual anchors alive, separating semantic invariants from scene/photometric variation, verifying transport and cross-modal binding, rejecting bad plans before execution, and preventing failed artifacts from mutating future state.
