@@ -1,14 +1,18 @@
 # Source Queue Index
 
-Updated: 2026-09-15T15:22:58Z
+Updated: 2026-09-15T16:23:45Z
 
 This is a mechanical index, not an analysis. Sources remain unverified until the hourly ChatGPT research pass reads and evaluates them.
 
-Queue files indexed: 10
-Unique candidate URLs: 150
+Queue files indexed: 14
+Unique candidate URLs: 184
 
 ## Queue files
 
+- `source_queue/20260915T161547Z.md`
+- `source_queue/20260915T155451Z.md`
+- `source_queue/20260915T154345Z.md`
+- `source_queue/20260915T152813Z.md`
 - `source_queue/20260915T151529Z.md`
 - `source_queue/20260915T145616Z.md`
 - `source_queue/20260915T144419Z.md`
@@ -22,186 +26,220 @@ Unique candidate URLs: 150
 
 ## Unique candidates
 
-- [[ PARENT THREAD ] SQAG — Rolling Work Queue](https://github.com/Swooshz-com/swooshz-quote-auto-generator/issues/143) — discovered in `20260915T151529Z.md`
-- [[ PARENT THREAD ] Swooshz Design Full-Suite MVP — Rolling Work Queue](https://github.com/Swooshz-com/swooshz-design/issues/1) — discovered in `20260915T143031Z.md`
-- [[ PARENT THREAD ] Swooshz Platform — Production Activation → Hardening](https://github.com/Swooshz-com/swooshz-platform/issues/104) — discovered in `20260915T151529Z.md`
-- [[ PARENT THREAD ] X-Boundaries Automation — Rolling Work Queue](https://github.com/x-boundaries/automation/issues/117) — discovered in `20260915T151529Z.md`
-- [[ win Codex ] Expose effective image model and supported model selection for built-in image_gen (Images 2.5)](https://github.com/openai/codex/issues/43965) — discovered in `20260915T151529Z.md`
+- [[ PARENT THREAD ] SQAG — Rolling Work Queue](https://github.com/Swooshz-com/swooshz-quote-auto-generator/issues/143) — discovered in `20260915T155451Z.md`
+- [[ PARENT THREAD ] Swooshz Design Full-Suite MVP — Rolling Work Queue](https://github.com/Swooshz-com/swooshz-design/issues/1) — discovered in `20260915T161547Z.md`
+- [[ PARENT THREAD ] Swooshz Platform — Production Activation → Hardening](https://github.com/Swooshz-com/swooshz-platform/issues/104) — discovered in `20260915T161547Z.md`
+- [[ PARENT THREAD ] X-Boundaries Automation — Rolling Work Queue](https://github.com/x-boundaries/automation/issues/117) — discovered in `20260915T155451Z.md`
+- [[ win Codex ] Expose effective image model and supported model selection for built-in image_gen (Images 2.5)](https://github.com/openai/codex/issues/43965) — discovered in `20260915T161547Z.md`
 - [[00W][Pre-Promotion] Website V1 infrastructure & operations closure](https://github.com/pketally620-rgb/zero-service/issues/5) — discovered in `20260915T125832Z.md`
 - [[AGENT-HUB] 중앙 명령·완료 보고 허브 — Overflow Recovery 2026-08-30](https://github.com/seungjae3908-source/seungjae20260713/issues/838) — discovered in `20260915T151529Z.md`
-- [[Agents] Post V1.0 Work](https://github.com/google-gemini/gemini-cli/issues/3132) — discovered in `20260915T151529Z.md`
+- [[Agents] Post V1.0 Work](https://github.com/google-gemini/gemini-cli/issues/3132) — discovered in `20260915T161547Z.md`
 - [[AI Executor Radar] high-priority capability change](https://github.com/ram6666666/ai-ops-memory/issues/12) — discovered in `20260915T133205Z.md`
+- [[AURORA][CORTEX][READINESS] Parallel execution control board](https://github.com/luizanunciostoca/aurora-ai-native/issues/532) — discovered in `20260915T154345Z.md`
 - [[aw] No-Op Runs](https://github.com/elastic/ai-github-actions/issues/945) — discovered in `20260915T143031Z.md`
 - [[aw] No-Op Runs](https://github.com/pydantic/pydantic-ai/issues/5685) — discovered in `20260915T133205Z.md`
+- [[Budget] 官方 CallLimit / TimeoutPolicy / dynamic model 优先：补跨委派 Token/Depth 与 compound-workflow 完整核算](https://github.com/yachenyanyi/deep_loopminder/issues/16) — discovered in `20260915T154345Z.md`
+- [[BUG] Background job rows flood the transcript and lie "running" forever (17+ stale walls)](https://github.com/IstiN/flutter_agent_harness/issues/429) — discovered in `20260915T161547Z.md`
 - [[BUG] Claude Max plan session limits exhausted abnormally fast since March 23, 2026 (CLI usage)](https://github.com/anthropics/claude-code/issues/38335) — discovered in `20260915T133205Z.md`
 - [[Bug] Goal function causes infinite loop when waiting for task completion](https://github.com/anthropics/claude-code/issues/59827) — discovered in `20260915T143031Z.md`
 - [[BUG] Repeated "image could not be processed" errors consumed ~60% of usage limit — 19 consecutive failures, each resending full 34MB context](https://github.com/anthropics/claude-code/issues/66815) — discovered in `20260915T141624Z.md`
 - [[Bug] update_peer_card silently truncates an over-cap card, so a card at the cap can never take a new entry](https://github.com/plastic-labs/honcho/issues/1143) — discovered in `20260915T133205Z.md`
-- [[Bug]: 74 test failures on Windows — Unix-only test commands, path semantics, console encoding](https://github.com/zeroclaw-labs/zeroclaw/issues/7462) — discovered in `20260915T151529Z.md`
+- [[BUG] Writes fail with ClientDisconnect while reading request body (addon + mcp-proxy, no TLS)](https://github.com/homeassistant-ai/ha-mcp/issues/2367) — discovered in `20260915T154345Z.md`
+- [[Bug]: 74 test failures on Windows — Unix-only test commands, path semantics, console encoding](https://github.com/zeroclaw-labs/zeroclaw/issues/7462) — discovered in `20260915T161547Z.md`
 - [[Bug]: iOS work log hides tool identity behind generic `Tool` / `Tool updated` rows](https://github.com/pingdotgg/t3code/issues/11903) — discovered in `20260915T145616Z.md`
 - [[Bug]: MCP server init timeout crashes the Gateway — unhandled rejection "service child cleanup identity lost" in child cleanup path](https://github.com/openclaw/openclaw/issues/144911) — discovered in `20260915T131722Z.md`
 - [[Bug][P2] Zalo drops a malformed reschedule date or time, then asks the learner to confirm "theo thời gian bạn vừa nêu"](https://github.com/lengocanh2005it/wispace-bot/issues/1213) — discovered in `20260915T145616Z.md`
 - [[CI Monitor] Daily Report - 2026-09-15](https://github.com/bingxche/sglang-ci-bot/issues/196) — discovered in `20260915T151529Z.md`
 - [[Collaboration review] F4/F5 remediation at 19f0b5e — CHANGES_REQUESTED](https://github.com/oihuegbu/new-podiatry-coder/issues/6) — discovered in `20260915T125832Z.md`
-- [[content-program] GOLDEN bilingual series backlog](https://github.com/fjmmontiel/5sigmas/issues/305) — discovered in `20260915T141624Z.md`
+- [[content-program] GOLDEN bilingual series backlog](https://github.com/fjmmontiel/5sigmas/issues/305) — discovered in `20260915T154345Z.md`
 - [[CONTROL] MYSTIC Autonomous Coordination](https://github.com/search-maker/twilight-mystic-experiments/issues/60) — discovered in `20260915T135611Z.md`
-- [[COORDINATION] EXOVANT world ownership registry — reserve before modeling](https://github.com/rotprods/-/issues/7) — discovered in `20260915T151529Z.md`
+- [[COORDINATION] EXOVANT world ownership registry — reserve before modeling](https://github.com/rotprods/-/issues/7) — discovered in `20260915T152813Z.md`
+- [[Design]: Add a fail-closed validation ownership graph](https://github.com/laqieer/fireemblem8-expansion/issues/180) — discovered in `20260915T152813Z.md`
+- [[Epic][Research] SmolVLA 轻量未来隐变量补偿的预测式异步推理](https://github.com/Lebron-233/lerobot/issues/1) — discovered in `20260915T154345Z.md`
 - [[Epic][Security] Red-team Connex — offensive source review fleet (gpt-6-astra xhigh)](https://github.com/itkla/connex/issues/1639) — discovered in `20260915T131722Z.md`
-- [[Execution Ledger] Version 1.0.0 final release](https://github.com/SUSANO-OOO/Zombieee/issues/172) — discovered in `20260915T151529Z.md`
-- [[GEN142][CANONICAL TRUNK] Long-loop reliability → buyer-legible external fitness](https://github.com/TTaoGaming/hfo-gen-142/issues/13) — discovered in `20260915T145616Z.md`
+- [[Execution Ledger] Version 1.0.0 final release](https://github.com/SUSANO-OOO/Zombieee/issues/172) — discovered in `20260915T161547Z.md`
+- [[GEN142][CANONICAL TRUNK] Long-loop reliability → buyer-legible external fitness](https://github.com/TTaoGaming/hfo-gen-142/issues/13) — discovered in `20260915T161547Z.md`
 - [[MiniMax-H3] API conformance tests for the #5039 requirements](https://github.com/tenstorrent/tt-inference-server/issues/5044) — discovered in `20260915T125832Z.md`
-- [[mtj-task/1] P0.1 — Clean-slate MTG Thesaurus repository refoundation architecture](https://github.com/MTJawnny/mtjawnny-pipeline/issues/1) — discovered in `20260915T143031Z.md`
+- [[mtj-task/1] P0.1 — Clean-slate MTG Thesaurus repository refoundation architecture](https://github.com/MTJawnny/mtjawnny-pipeline/issues/1) — discovered in `20260915T154345Z.md`
 - [[MULTIVERSE][CONTROL][IDEA LEDGER] 対話室 + idea lifecycle v1](https://github.com/fufufu1116/multiverse-research/issues/436) — discovered in `20260915T133205Z.md`
-- [[ops] main management conversation log](https://github.com/hanmiyoo10-alt/-/issues/293) — discovered in `20260915T135611Z.md`
+- [[ops] main management conversation log](https://github.com/hanmiyoo10-alt/-/issues/293) — discovered in `20260915T154345Z.md`
 - [[P0][RESTORE] Restore proven resident unattended loop for Herdr + current WebGPT Control](https://github.com/D22977/gpt-browser-bridge/issues/162) — discovered in `20260915T144419Z.md`
 - [[P1] Follow up #358 PR review: fix representation migration, serving gates, and deployment integration](https://github.com/yonatan895/qdrant-pdf-rag/issues/391) — discovered in `20260915T131722Z.md`
 - [[Performance]: Enable and optimize MammothModa2 acceleration features across AR and DiT](https://github.com/vllm-project/vllm-omni/issues/7075) — discovered in `20260915T145616Z.md`
-- [[Phase 4] Real Mechanical source to verified editable CAD acceptance](https://github.com/duongchi90/cad-agent/issues/409) — discovered in `20260915T143031Z.md`
+- [[Phase 4] Real Mechanical source to verified editable CAD acceptance](https://github.com/duongchi90/cad-agent/issues/409) — discovered in `20260915T161547Z.md`
 - [[PM seat] domain:spec — ▶️ os-warren 在席 R2 · ✅ 3 落地(#18233 #18238 #18230) · 2 PR 在飞且本会话皆推不动 · 达档 9 次 4 PASS/5 FAIL · 🛑 harness 闸门锁死 os-dev 派发 · ⏰ 维护者 4 件](https://github.com/objectstack-ai/objectstack/issues/6017) — discovered in `20260915T151529Z.md`
-- [[PM seat] triage (objectstack-wide) — 🟢 `session_01VxjMEAhT53WHUCtP9WMrSU` · R+236(objectui 轮)· 写入走 REST/`claude[bot]`(⛔ 非 os-sam),每 fire 自检通过 · retriage os 7→4 / ui 13→11 · ⛔ 下个 objectstack 轮必须域分批(裸卡 43>15)· ⚠️ cloud 与 www.objectos.ai 实测不可达,#17163/#17165 已转 awaiting-maintainer](https://github.com/objectstack-ai/objectstack/issues/6015) — discovered in `20260915T151529Z.md`
+- [[PM seat] triage (objectstack-wide) — 🔴 空缺 · 上一任 `session_01VxjMEAhT53WHUCtP9WMrSU` 执 R+235→R+237,2026-09-15T15:55Z 因 harness STALE 机械收班(⛔ 非维护者令),✅ 留完整简报 · ⛔ 接手必读正文:枚举配方已证伪(界内页 200 返 [],须 per_page=50 + 对 open_issues_count)· 裸卡 43>15 欠域分批 · retriage 余 4+11 · 决策箱 5 + objectui 15](https://github.com/objectstack-ai/objectstack/issues/6015) — discovered in `20260915T161547Z.md`
 - [[pm:seat] domain:ui @ objectui — 🟢 os-tesla (session_01UzHd6hDYatoDn17BuwKxnZ, seated 2026-09-11T02:3xZ from handover) · R16 · 1 dev out · 0 QUEUED · 1 HELD · 3 LANDED](https://github.com/objectstack-ai/objectui/issues/5560) — discovered in `20260915T135611Z.md`
-- [[PM] W3 接通 Viewer PromptControl 真实消费与验收入口](https://github.com/eng-cc/oasis7/issues/3688) — discovered in `20260915T151529Z.md`
-- [[Testing] Bound and prove acceptance descendant-process cleanup](https://github.com/Bilaltariq41/SeqDoc/issues/100) — discovered in `20260915T125832Z.md`
+- [[PM] W3 接通 Viewer PromptControl 真实消费与验收入口](https://github.com/eng-cc/oasis7/issues/3688) — discovered in `20260915T161547Z.md`
+- [[Testing] Bound and prove acceptance descendant-process cleanup](https://github.com/Bilaltariq41/SeqDoc/issues/100) — discovered in `20260915T152813Z.md`
 - [`Sub agent failed to return final message` - possible to retry?](https://github.com/seoes/proval/issues/19) — discovered in `20260915T145616Z.md`
+- [A refused call no longer re-opens the prompt, and the model still runs the turn out](https://github.com/go-steer/core-agent/issues/1081) — discovered in `20260915T152813Z.md`
 - [Add the initial interactive Pi Agent Harness Adapter](https://github.com/OSmall/tomekin/issues/52) — discovered in `20260915T141624Z.md`
-- [Agentic OS Conductor Log](https://github.com/FreeForCharity/FFC-Cloudflare-Automation/issues/719) — discovered in `20260915T131722Z.md`
+- [ag init and ag doctor: prepare a machine and a project, with the label scheme as data](https://github.com/dendotai/ag/issues/15) — discovered in `20260915T161547Z.md`
+- [Agent prematurely stops during multi-step tool-call tasks](https://github.com/odysseus-dev/odysseus/issues/6314) — discovered in `20260915T161547Z.md`
+- [Agentic OS Conductor Log](https://github.com/FreeForCharity/FFC-Cloudflare-Automation/issues/719) — discovered in `20260915T154345Z.md`
 - [agentic-loop: prevent silent ACK and active-state loss across process restart](https://github.com/C360Studio/semstreams/issues/1146) — discovered in `20260915T144419Z.md`
 - [AI architecture v2: bounded tutor agent, model routing, evals, and cost observability](https://github.com/harshsandhu44/bandzen/issues/60) — discovered in `20260915T133205Z.md`
 - [AI cooperation board: Manus execution lead + integration](https://github.com/TheHighBrid/JobTomatik/issues/252) — discovered in `20260915T131722Z.md`
 - [AIMETON Watchdog — durable handoff and movement ledger](https://github.com/AIMETON/AIMETON_site_auditor/issues/173) — discovered in `20260915T143031Z.md`
 - [AnyTour — координация интеграций, поиска, сайта и SEO](https://github.com/pyatkoff/poisk-turov-test/issues/996) — discovered in `20260915T133205Z.md`
 - [Auto-continue responses truncated at the output-token limit (finish_reason="length")](https://github.com/NVIDIA-NeMo/labs-OO-Agents/issues/345) — discovered in `20260915T134624Z.md`
-- [AUTOSPORT — GLOBAL PRODUCT COMPLETION / V1 WINDOWS PAPER LAB](https://github.com/Oleksii-debug/Autosport/issues/1) — discovered in `20260915T151529Z.md`
+- [AUTOSPORT — GLOBAL PRODUCT COMPLETION / V1 WINDOWS PAPER LAB](https://github.com/Oleksii-debug/Autosport/issues/1) — discovered in `20260915T161547Z.md`
 - [Background subagent loops on malformed `edit` tool calls with no way to stop it (Task tool lacks cancel; retries burn tokens indefinitely)](https://github.com/Kilo-Org/kilocode/issues/14143) — discovered in `20260915T135611Z.md`
 - [Bellman Policy Optimization](http://arxiv.org/abs/2609.15987v1) — discovered in `20260915T141624Z.md`
 - [bug: account deletion leaves user-owned resources undeleted](https://github.com/vm0-ai/vm0/issues/33745) — discovered in `20260915T133205Z.md`
 - [bug: plan mode blocks bash and EnterPlanMode unnecessarily](https://github.com/darwin-finch/finch/issues/26) — discovered in `20260915T144419Z.md`
+- [Bug: Windows 上 aiohttp SSL 握手超时，但 raw socket 和 curl 正常](https://github.com/lumina37/aiotieba/issues/398) — discovered in `20260915T161547Z.md`
 - [BUILD-SUPPORT-001 — Event-driven structural graph, terrain roots and cached support authority](https://github.com/KevinRabbe/underworld/issues/494) — discovered in `20260915T145616Z.md`
-- [chore(superheroes): vet-proposals collector — standing (Tier-2 items awaiting the owner's word)](https://github.com/zwrose/superheroes/issues/695) — discovered in `20260915T144419Z.md`
+- [chore(superheroes): vet-proposals collector — standing (Tier-2 items awaiting the owner's word)](https://github.com/zwrose/superheroes/issues/695) — discovered in `20260915T155451Z.md`
 - [CI Failure: ci_on_push](https://github.com/7h3-3mp7y-m4n/GitHub-api-learner/issues/61) — discovered in `20260915T131722Z.md`
+- [Clara Bon — harness-borne agent on a Claude substrate, a year into continuity engineering (visitor log)](https://github.com/ai-village-agents/ai-village-external-agents/issues/79) — discovered in `20260915T155451Z.md`
 - [cmd -p turns without tool calls produce empty session transcript files](https://github.com/CommandCodeAI/command-code/issues/836) — discovered in `20260915T144419Z.md`
-- [Codex OAuth image route does not enforce the image_generation tool spec (affects #106717, #107174, #106708)](https://github.com/NousResearch/hermes-agent/issues/107233) — discovered in `20260915T151529Z.md`
+- [Codex OAuth image route does not enforce the image_generation tool spec (affects #106717, #107174, #106708)](https://github.com/NousResearch/hermes-agent/issues/107233) — discovered in `20260915T161547Z.md`
+- [CodingWorkspace typed-media activation: install the LTIC packet (Newcastle image and speech)](https://github.com/ubc/jupyter-images/issues/26) — discovered in `20260915T155451Z.md`
 - [Community Gen2265 superseding eight-state lifecycle retrofit](https://github.com/smansfield635-create/smansfield635-create.github.io/issues/3462) — discovered in `20260915T151529Z.md`
 - [Compile GUI understanding into a symbolic planner interface and measure cold/warm end-to-end gain](https://github.com/Unjuno/agent-interface/issues/56) — discovered in `20260915T135611Z.md`
-- [Complete EnergyGrid controlled CLI validation and Scheduler activation](https://github.com/x-boundaries/automation/issues/141) — discovered in `20260915T141624Z.md`
+- [Complete EnergyGrid controlled CLI validation and Scheduler activation](https://github.com/x-boundaries/automation/issues/141) — discovered in `20260915T155451Z.md`
 - [Complete Magic's declared Scryfall import](https://github.com/KeeprDigital/card-keepr/issues/327) — discovered in `20260915T135611Z.md`
+- [Complete the private-launch catalogue and generated HTTP contracts](https://github.com/KeeprDigital/card-keepr/issues/312) — discovered in `20260915T155451Z.md`
 - [coord: deliver post-blocker gameplay vertical slice](https://github.com/Oteryn/Oteryn-Game/issues/162) — discovered in `20260915T125832Z.md`
 - [Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection](http://arxiv.org/abs/2609.15989v1) — discovered in `20260915T141624Z.md`
 - [Cyclic Haagerup-Izumi fusion categories at every odd order](http://arxiv.org/abs/2609.15986v1) — discovered in `20260915T141624Z.md`
-- [Deliver the Workflow V3 NuGet Smoke Slice Through Verified Go-Live](https://github.com/hcoona/three/issues/676) — discovered in `20260915T145616Z.md`
+- [Daemon restarts re-run queued and in-flight issue pipelines — 277 re-runs recorded, 167 in the last 14 days](https://github.com/markmhendrickson/ateles/issues/1011) — discovered in `20260915T155451Z.md`
+- [Dashboard firmware: what the cluster transmits, why 0x410 is not the hub's, and a diagnostic channel with two services](https://github.com/danieltroger/cool-eva/issues/224) — discovered in `20260915T152813Z.md`
+- [Deliver the Workflow V3 NuGet Smoke Slice Through Verified Go-Live](https://github.com/hcoona/three/issues/676) — discovered in `20260915T161547Z.md`
 - [Dependency Dashboard](https://github.com/nicholasgriffintn/ai-platform/issues/5) — discovered in `20260915T145616Z.md`
 - [Design a two-tier evolution/improvement architecture: skill-level (existing) vs. pipeline-level (new) learning](https://github.com/richfrem/agent-plugins-skills/issues/548) — discovered in `20260915T143031Z.md`
 - [Detect and surface "thrashing" build iterations — repeated identical file edits without test-status change](https://github.com/sethdford/shipwright/issues/4428) — discovered in `20260915T131722Z.md`
 - [Dream runs for 1–2 h looping on the same read_file calls; dream.maxIterations is deprecated/ignored so the global 200-iteration cap applies](https://github.com/HKUDS/nanobot/issues/5781) — discovered in `20260915T151529Z.md`
 - [Enforce complete Trajectory Ladders and continuous autonomous workflows in the daemon, every executor, and all UI surfaces](https://github.com/Startempire-Wire/focusa/issues/618) — discovered in `20260915T145616Z.md`
-- [epic(pi): decouple inference from Sandbox admission and reach sub-300ms startup](https://github.com/vm0-ai/vm0/issues/34236) — discovered in `20260915T151529Z.md`
+- [epic(pi): decouple inference from Sandbox admission and reach sub-300ms startup](https://github.com/vm0-ai/vm0/issues/34236) — discovered in `20260915T155451Z.md`
 - [eval: session-DB sequence analysis for per-call gate metrics](https://github.com/andikapradanaarif/crush/issues/40) — discovered in `20260915T131722Z.md`
+- [Evolve CoachAgent into an observable harness: session memory, strategy diary, transcripts](https://github.com/ludvious/fantasyleague-ai-auction/issues/10) — discovered in `20260915T161547Z.md`
 - [Experiment: song storyboard feasibility on local h3.c](https://github.com/skaiy/h3.c-studio/issues/11) — discovered in `20260915T135611Z.md`
 - [F0: freeze independent bootstrap cases, process oracle and trust workflow](https://github.com/akaszubski/autonomous-dev/issues/1773) — discovered in `20260915T131722Z.md`
 - [feat(avalonia): offline SAF patch-database ZIP import for the loaded ROM](https://github.com/laqieer/FEBuilderGBA/issues/2158) — discovered in `20260915T135611Z.md`
-- [Feature: Missing Subagent Hook Events](https://github.com/google-gemini/gemini-cli/issues/15269) — discovered in `20260915T151529Z.md`
+- [Feature: Missing Subagent Hook Events](https://github.com/google-gemini/gemini-cli/issues/15269) — discovered in `20260915T161547Z.md`
 - [fix(P14): pi-issue-run resume-on-provider-death red on main since #5993 — blocks PR #5995 (intake SEAT_YIELD_JSON hotfix) from landing and holds the deploy-clone dirt](https://github.com/Nishfleet/fleet-ops/issues/6022) — discovered in `20260915T135611Z.md`
-- [fix(pi): include DeepSeek V4.1 Flash across API-first and Sandbox execution](https://github.com/vm0-ai/vm0/issues/34357) — discovered in `20260915T151529Z.md`
-- [fix(test): attribute Linux X11 errors before lifecycle tolerance](https://github.com/laqieer/FEBuilderGBA/issues/2160) — discovered in `20260915T151529Z.md`
+- [fix(pi): include DeepSeek V4.1 Flash across API-first and Sandbox execution](https://github.com/vm0-ai/vm0/issues/34357) — discovered in `20260915T154345Z.md`
+- [fix(review): Pi answer-consent rejects fresh review binding](https://github.com/Gentleman-Programming/gentle-ai/issues/2135) — discovered in `20260915T152813Z.md`
+- [fix(test): attribute Linux X11 errors before lifecycle tolerance](https://github.com/laqieer/FEBuilderGBA/issues/2160) — discovered in `20260915T152813Z.md`
 - [Fleet reconciliation: universal provider-control implementations](https://github.com/layibabalola/softwarefactory-fleet-doctrine/issues/4) — discovered in `20260915T151529Z.md`
 - [FT-003: dispatch to mac-claude-a — acknowledgement required](https://github.com/flash-tex/flashtex/issues/2) — discovered in `20260915T125832Z.md`
-- [G1: prospective certification carrier and external receipt field contract](https://github.com/imrohitagrawal/narratwin-ai/issues/533) — discovered in `20260915T151529Z.md`
+- [G1: prospective certification carrier and external receipt field contract](https://github.com/imrohitagrawal/narratwin-ai/issues/533) — discovered in `20260915T154345Z.md`
 - [Goal loop keeps insisting on continuation when the agent is blocked awaiting user input (pac-frontend-new and pac-backend)](https://github.com/uncomplexity/opencode-goal/issues/7) — discovered in `20260915T145616Z.md`
-- [GOAL НДФЛ: универсальный конвейер реальных отчётов → проверенный XML](https://github.com/Kwentin3/corp-openweb-ui/issues/516) — discovered in `20260915T151529Z.md`
-- [gPTP plane silicon validation: one-DUT sync against the reference peer, GM loss and return, conformance](https://github.com/kebag-logic/milan-fpga/issues/117) — discovered in `20260915T143031Z.md`
+- [GOAL НДФЛ: универсальный конвейер реальных отчётов → проверенный XML](https://github.com/Kwentin3/corp-openweb-ui/issues/516) — discovered in `20260915T155451Z.md`
+- [gPTP plane silicon validation: one-DUT sync against the reference peer, GM loss and return, conformance](https://github.com/kebag-logic/milan-fpga/issues/117) — discovered in `20260915T161547Z.md`
 - [impl: enforce SQLx PostgreSQL driver accounting within accepted admission budgets](https://github.com/Oteryn/Oteryn-Game/issues/351) — discovered in `20260915T151529Z.md`
-- [Implementation Control v4 — ACTIVE](https://github.com/dimto13/ai-tutor-lab/issues/399) — discovered in `20260915T151529Z.md`
+- [Implementation Control v4 — ACTIVE](https://github.com/dimto13/ai-tutor-lab/issues/399) — discovered in `20260915T161547Z.md`
+- [Implementation map: ruled clinical-skills backlog](https://github.com/mshamblin5150-code/clinical-skills/issues/596) — discovered in `20260915T155451Z.md`
+- [improve install guide](https://github.com/danieltroger/cool-eva/issues/136) — discovered in `20260915T154345Z.md`
 - [Inferring dark matter masses and interactions from high recoil energy events in LUX-ZEPLIN](http://arxiv.org/abs/2609.15985v1) — discovered in `20260915T141624Z.md`
-- [Kits parity issues](https://github.com/firebase/extensions/issues/2974) — discovered in `20260915T151529Z.md`
-- [Koordinasyon kanalı — ajan durumu, sahiplik ve merge sırası](https://github.com/ziyabeey1-ai/randevu/issues/65) — discovered in `20260915T145616Z.md`
-- [Label audit (unverified): open tickets tagged duplicate or invalid](https://github.com/NousResearch/hermes-agent/issues/109552) — discovered in `20260915T151529Z.md`
+- [Kits parity issues](https://github.com/firebase/extensions/issues/2974) — discovered in `20260915T152813Z.md`
+- [Koordinasyon kanalı — ajan durumu, sahiplik ve merge sırası](https://github.com/ziyabeey1-ai/randevu/issues/65) — discovered in `20260915T154345Z.md`
+- [KR-003: Prove or reject consumer Android enforcement and Play feasibility](https://github.com/felipebarbosa4/KidRemote/issues/3) — discovered in `20260915T152813Z.md`
+- [Label audit (unverified): open tickets tagged duplicate or invalid](https://github.com/NousResearch/hermes-agent/issues/109552) — discovered in `20260915T161547Z.md`
+- [List of working motherboards](https://github.com/xCuri0/ReBarUEFI/issues/11) — discovered in `20260915T154345Z.md`
+- [Local-only: qualify exact V25 SHA in BricsCAD](https://github.com/trinhtanphat/QS3D-BricsCAD/issues/72) — discovered in `20260915T161547Z.md`
 - [Lock identity across clip-chain](https://github.com/genfeedai/genfeed.ai/issues/4651) — discovered in `20260915T143031Z.md`
 - [MCP tools/list_changed notification does not invalidate deferred tool cache or refetch tools/list](https://github.com/openai/codex/issues/33266) — discovered in `20260915T141624Z.md`
+- [MilkDrop Phase 2: visual rendering quality, user textures (img.ini), motion vectors, and smooth preset transitions](https://github.com/CaYatur/SoundVisualizer/issues/560) — discovered in `20260915T161547Z.md`
 - [MOHR-ONIX-IMPORT-01: Controlled one-off Mohr Siebeck ONIX import](https://github.com/thoth-pub/thoth-app/issues/199) — discovered in `20260915T144419Z.md`
-- [MVP rep: shared-probe Model Spelunker via Agent Dispatch public execution](https://github.com/SemperSupra/model-spelunker/issues/4) — discovered in `20260915T143031Z.md`
-- [Myco 2.0 — revised plan (2026-09-07)](https://github.com/goondocks-co/myco/issues/1144) — discovered in `20260915T151529Z.md`
+- [MVP rep: shared-probe Model Spelunker via Agent Dispatch public execution](https://github.com/SemperSupra/model-spelunker/issues/4) — discovered in `20260915T152813Z.md`
+- [Myco 2.0 — revised plan (2026-09-07)](https://github.com/goondocks-co/myco/issues/1144) — discovered in `20260915T161547Z.md`
 - [Nit Store](https://github.com/cooneycw/claude-power-pack/issues/864) — discovered in `20260915T131722Z.md`
 - [P0: preserve Codex MCP tool availability across deployment restart and OAuth rebind](https://github.com/James3014/devspace/issues/163) — discovered in `20260915T144419Z.md`
-- [P3: подключение Андромеды к общей выдаче AnyTour](https://github.com/pyatkoff/poisk-turov-test/issues/1717) — discovered in `20260915T134624Z.md`
-- [Persist per-account baselines and outlier ratios](https://github.com/genfeedai/genfeed.ai/issues/4403) — discovered in `20260915T145616Z.md`
+- [P1: Reconcile every document and legacy spec with current source](https://github.com/tomqwu/SignUpFlow/issues/277) — discovered in `20260915T152813Z.md`
+- [P3: подключение Андромеды к общей выдаче AnyTour](https://github.com/pyatkoff/poisk-turov-test/issues/1717) — discovered in `20260915T155451Z.md`
+- [Permission friction — canonical scoping tracker (supersedes #796)](https://github.com/Dev10x-Guru/Dev10x-Claude/issues/1100) — discovered in `20260915T161547Z.md`
+- [Persist per-account baselines and outlier ratios](https://github.com/genfeedai/genfeed.ai/issues/4403) — discovered in `20260915T154345Z.md`
+- [Phase 1: Add a narrow OpenHAB feeder gateway and dedicated WireGuard security boundary](https://github.com/lightning-goats/lightning-goats/issues/17) — discovered in `20260915T152813Z.md`
 - [Phoenix delivery roadmap — current state](https://github.com/scottopell/phoenix-ide/issues/651) — discovered in `20260915T141624Z.md`
 - [Platform lifecycle — direct production activation → hardening](https://github.com/Swooshz-com/swooshz-platform/issues/164) — discovered in `20260915T141624Z.md`
 - [PLEASE START FROM HERE — pleasestartfromhere.com — public Door](https://github.com/markgoodbody-bit/COM/issues/108) — discovered in `20260915T131722Z.md`
-- [Portfolio mission: AgentOS Level 5 end-state, Level 2 immediate priority](https://github.com/darrinbaldwindev/Overseer/issues/49) — discovered in `20260915T144419Z.md`
+- [PM-000 — Underworld Pull Task Board](https://github.com/KevinRabbe/underworld/issues/33) — discovered in `20260915T161547Z.md`
+- [Portfolio mission: AgentOS Level 5 end-state, Level 2 immediate priority](https://github.com/darrinbaldwindev/Overseer/issues/49) — discovered in `20260915T154345Z.md`
 - [Preserve real materialization results in the replay journal](https://github.com/yihanzhu/ystack/issues/324) — discovered in `20260915T135611Z.md`
-- [Product Final Controller](https://github.com/laiqian0239-glitch/yance/issues/1051) — discovered in `20260915T151529Z.md`
-- [Production Rollback Dashboard](https://github.com/vm0-ai/vm0/issues/6792) — discovered in `20260915T145616Z.md`
+- [Product Final Controller](https://github.com/laiqian0239-glitch/yance/issues/1051) — discovered in `20260915T152813Z.md`
+- [Production Rollback Dashboard](https://github.com/vm0-ai/vm0/issues/6792) — discovered in `20260915T155451Z.md`
+- [Productionise AutoCount 2 member sync for repeatable unattended operation](https://github.com/x-boundaries/automation/issues/155) — discovered in `20260915T155451Z.md`
 - [PROGRAM: Waaiio prioritized execution backlog — release, security, product, and deferred work](https://github.com/cipherhq/waaiio/issues/286) — discovered in `20260915T135611Z.md`
-- [Progress log - stage reports from the operator session (pinned)](https://github.com/Dengnifer/MIPStarRE-A/issues/27) — discovered in `20260915T133205Z.md`
+- [Progress log - stage reports from the operator session (pinned)](https://github.com/Dengnifer/MIPStarRE-A/issues/27) — discovered in `20260915T154345Z.md`
+- [Project setup: disabling verification leaves enabled artifacts, falsely reports ready, and hides finalization errors](https://github.com/AeroLinkDEV/requirements-management-tool/issues/1045) — discovered in `20260915T161547Z.md`
 - [Prove the Codex memory MVP on an immutable release candidate](https://github.com/acoz-labs/mandalore/issues/10) — discovered in `20260915T143031Z.md`
 - [read-only tier: #1233 is a partial fix — shlex fuses the newline into the punctuation beside it, so a blank line still hides a writer](https://github.com/argszero/emrg/issues/1241) — discovered in `20260915T131722Z.md`
 - [reasoning: model reasoning output stuck in infinite repetitive loop](https://github.com/anomalyco/opencode/issues/44962) — discovered in `20260915T134624Z.md`
-- [Release 0.17.6 coordinator](https://github.com/TheGreenCedar/CodeStory/issues/2135) — discovered in `20260915T151529Z.md`
-- [Release Train handoff — الحالة الحالية والمهام المتبقية — 2026-09-03](https://github.com/AMASI-SA/AMASI-SA/issues/1006) — discovered in `20260915T151529Z.md`
+- [Relay transport: bounded reconnect and local status without false AUTH diagnosis](https://github.com/Nuncio-hq/crew/issues/338) — discovered in `20260915T152813Z.md`
+- [Release 0.17.6 coordinator](https://github.com/TheGreenCedar/CodeStory/issues/2135) — discovered in `20260915T154345Z.md`
+- [Release Train handoff — الحالة الحالية والمهام المتبقية — 2026-09-03](https://github.com/AMASI-SA/AMASI-SA/issues/1006) — discovered in `20260915T161547Z.md`
 - [Reliable and cost-effective implementation attempts](https://github.com/lbacik/coding-agent/issues/40) — discovered in `20260915T125832Z.md`
 - [Reproduce VEST FAST-camera fluctuation and MHD-correlated filament analysis](https://github.com/VEST-Tokamak/vaft/issues/161) — discovered in `20260915T131722Z.md`
 - [Research-integrated continuous improvement audit: paper ↔ project novelty loop](https://github.com/dddd2024/Nerelan/issues/612) — discovered in `20260915T141624Z.md`
 - [ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids](http://arxiv.org/abs/2609.15988v1) — discovered in `20260915T141624Z.md`
-- [S8 — Editable 3D model + 3ds Max-compatible production handoff](https://github.com/Swooshz-com/swooshz-design/issues/29) — discovered in `20260915T133205Z.md`
-- [SF master implementation checklist](https://github.com/johazores/my-booking-engine/issues/1) — discovered in `20260915T145616Z.md`
+- [S8 — Editable 3D model + 3ds Max-compatible production handoff](https://github.com/Swooshz-com/swooshz-design/issues/29) — discovered in `20260915T152813Z.md`
+- [SF master implementation checklist](https://github.com/johazores/my-booking-engine/issues/1) — discovered in `20260915T154345Z.md`
+- [Slow sessions vs omp: UI-stall watchdog kills healthy streams and injects fake continuation turns (RCA 2026-09-15)](https://github.com/FreePeak/xdev/issues/283) — discovered in `20260915T155451Z.md`
 - [Stage 3 terminal: V3 derivation, canon/2, alias and index builders](https://github.com/SFHAJJI/lex/issues/344) — discovered in `20260915T151529Z.md`
 - [Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science](http://arxiv.org/abs/2609.15983v1) — discovered in `20260915T141624Z.md`
-- [Steward journal](https://github.com/kevinrhaas/polecat-platform/issues/56) — discovered in `20260915T151529Z.md`
-- [Stop Auto Memory from retrying low-signal sessions indefinitely](https://github.com/google-gemini/gemini-cli/issues/26522) — discovered in `20260915T151529Z.md`
+- [Steward journal](https://github.com/kevinrhaas/polecat-platform/issues/56) — discovered in `20260915T161547Z.md`
+- [Stop Auto Memory from retrying low-signal sessions indefinitely](https://github.com/google-gemini/gemini-cli/issues/26522) — discovered in `20260915T161547Z.md`
 - [Strengthen experiment causal-analysis and replication gates](https://github.com/ktogias/gnostoa/issues/183) — discovered in `20260915T145616Z.md`
 - [Structured agent progress and reasoning summaries without exposing hidden chain-of-thought](https://github.com/Agent-Clubhouse/Goobers/issues/3771) — discovered in `20260915T144419Z.md`
-- [Subagent recovery after MAX_TURNS is reported as GOAL success, hiding interruption](https://github.com/google-gemini/gemini-cli/issues/22323) — discovered in `20260915T151529Z.md`
+- [Subagent recovery after MAX_TURNS is reported as GOAL success, hiding interruption](https://github.com/google-gemini/gemini-cli/issues/22323) — discovered in `20260915T161547Z.md`
 - [Synchronous agent persistence and transcript maintenance block the Gateway event loop at scale](https://github.com/openclaw/openclaw/issues/119720) — discovered in `20260915T125832Z.md`
 - [Team Room — Standups, engineering chat, retrospectives and learning](https://github.com/NTinkicht/Tabibi/issues/21) — discovered in `20260915T145616Z.md`
 - [test(backend): validate property command convergence and Raspberry Pi latency](https://github.com/FastyBird/smart-panel/issues/1032) — discovered in `20260915T151529Z.md`
+- [Tool re-execution on task retry has no idempotency guard — duplicate payments, emails, trades possible](https://github.com/crewAIInc/crewAI/issues/5802) — discovered in `20260915T161547Z.md`
 - [Tracking Issue for Golden Gate bottling](https://github.com/Homebrew/homebrew-core/issues/303311) — discovered in `20260915T145616Z.md`
 - [Upstream the pprof parameter bounds, in-flight guard and handler tests from #208; compile the profiling feature in CI](https://github.com/logos-blockchain/logos-blockchain-agent-message-board/issues/261) — discovered in `20260915T131722Z.md`
 - [Upstream updates detected — 2026-08-03](https://github.com/impravin22/my-claude-maestro/issues/48) — discovered in `20260915T133205Z.md`
 - [User feedback: Recurring errors documented over months of daily Claude Code use](https://github.com/anthropics/claude-code/issues/69044) — discovered in `20260915T125832Z.md`
-- [V5 feature-completion — coordinated five-agent tracker](https://github.com/11ll11l1l1l/BibleQuest/issues/185) — discovered in `20260915T151529Z.md`
-- [Watch findings integration backlog — architecture/security conformance](https://github.com/Zoverions/AXIOM-MESH/issues/1575) — discovered in `20260915T133205Z.md`
+- [V5 feature-completion — coordinated five-agent tracker](https://github.com/11ll11l1l1l/BibleQuest/issues/185) — discovered in `20260915T161547Z.md`
+- [Watch findings integration backlog — architecture/security conformance](https://github.com/Zoverions/AXIOM-MESH/issues/1575) — discovered in `20260915T154345Z.md`
 - [Will this work with Ottocast?](https://github.com/catplay-labs/catplay/issues/1) — discovered in `20260915T151529Z.md`
-- [Workflow Immune System — OpenAmer's self-healing UI automation](https://github.com/openamer/openamer/issues/18) — discovered in `20260915T145616Z.md`
+- [Workflow Immune System — OpenAmer's self-healing UI automation](https://github.com/openamer/openamer/issues/18) — discovered in `20260915T161547Z.md`
 - [World Slice 0: embodied shared 3D place](https://github.com/Jozzpoly/cloudflare-multiplayer-lab/issues/8) — discovered in `20260915T143031Z.md`
 - [Компоситорные перф-новеллы: аддитивный ретаргет суперпозицией, tail-handoff, phase-shift базис staggers](https://github.com/Labpics-Team/lab-motion/issues/242) — discovered in `20260915T151529Z.md`
+- [🐛 Stop the Stop-verdict gate from firing inside subagents](https://github.com/Dev10x-Guru/Dev10x-Claude/issues/1314) — discovered in `20260915T155451Z.md`
 - [🐝 Hive Advisory Report](https://github.com/llm-d-incubation/llm-d-fast-model-actuation/issues/580) — discovered in `20260915T141624Z.md`
 - [📊 AI CLI Tools Digest 2026-09-09](https://github.com/duanyytop/agents-radar/issues/3189) — discovered in `20260915T135611Z.md`
-- [📊 AI CLI Tools Digest 2026-09-10](https://github.com/JohnGao818/agents-radar/issues/907) — discovered in `20260915T151529Z.md`
-- [📊 AI CLI Tools Digest 2026-09-15](https://github.com/sikm-lqs/agents-radar/issues/212) — discovered in `20260915T151529Z.md`
+- [📊 AI CLI Tools Digest 2026-09-10](https://github.com/JohnGao818/agents-radar/issues/907) — discovered in `20260915T161547Z.md`
+- [📊 AI CLI Tools Digest 2026-09-15](https://github.com/sikm-lqs/agents-radar/issues/212) — discovered in `20260915T161547Z.md`
 - [📊 AI CLI 工具社区动态日报 2026-09-15](https://github.com/boom7sss/agents-radar/issues/796) — discovered in `20260915T144419Z.md`
 - [🔴 SM Flow Regression RCA — REVIEW_WAITを実装WIP誤計上し8時間Queue starvationを見逃した](https://github.com/sadouninc/Sado-Investment-Lab/issues/645) — discovered in `20260915T125832Z.md`
+- [🚨 Zero Day Pulse — Active Vulnerability Tracker](https://github.com/peleduri/zero-day-pulse/issues/7) — discovered in `20260915T155451Z.md`
 - [🤝 Agent coordination channel (standing)](https://github.com/d-hinders/Haven-AI/issues/1289) — discovered in `20260915T145616Z.md`
-- [🦞 OpenClaw Ecosystem Digest 2026-09-10](https://github.com/datnguyenquy94/news-radar/issues/435) — discovered in `20260915T151529Z.md`
+- [🦞 OpenClaw Ecosystem Digest 2026-09-10](https://github.com/datnguyenquy94/news-radar/issues/435) — discovered in `20260915T161547Z.md`
 
 ## Collector errors
 
-- 20260915T143031Z.md: - **COLLECTOR ERROR** — LLM self correction external feedback: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T143031Z.md: - **COLLECTOR ERROR** — identity preserving image generation reference: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T143031Z.md: - **COLLECTOR ERROR** — multi reference image generation identity: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T143031Z.md: - **COLLECTOR ERROR** — subject driven image generation pose expression identity: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T143031Z.md: - **COLLECTOR ERROR** — LLM agent failure recovery tool calling: arXiv collection failed: HTTPError: HTTP Error 429: Too Many Requests
-- 20260915T143031Z.md: - **COLLECTOR ERROR** — "context" instruction ignored agent: GitHub collection failed: HTTPError: HTTP Error 403: Forbidden
-- 20260915T144419Z.md: - **COLLECTOR ERROR** — large language model instruction following agent tool use: arXiv collection failed: TimeoutError: The read operation timed out
-- 20260915T144419Z.md: - **COLLECTOR ERROR** — long context language model instruction following: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T144419Z.md: - **COLLECTOR ERROR** — LLM agent reliability tool use: arXiv collection failed: TimeoutError: The read operation timed out
-- 20260915T144419Z.md: - **COLLECTOR ERROR** — LLM self correction external feedback: arXiv collection failed: TimeoutError: The read operation timed out
-- 20260915T144419Z.md: - **COLLECTOR ERROR** — identity preserving image generation reference: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T144419Z.md: - **COLLECTOR ERROR** — multi reference image generation identity: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T144419Z.md: - **COLLECTOR ERROR** — subject driven image generation pose expression identity: arXiv collection failed: TimeoutError: The read operation timed out
-- 20260915T144419Z.md: - **COLLECTOR ERROR** — LLM agent failure recovery tool calling: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T145616Z.md: - **COLLECTOR ERROR** — large language model instruction following agent tool use: arXiv collection failed: HTTPError: HTTP Error 429: Too Many Requests
-- 20260915T145616Z.md: - **COLLECTOR ERROR** — long context language model instruction following: arXiv collection failed: TimeoutError: The read operation timed out
-- 20260915T145616Z.md: - **COLLECTOR ERROR** — LLM agent reliability tool use: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T145616Z.md: - **COLLECTOR ERROR** — LLM self correction external feedback: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T145616Z.md: - **COLLECTOR ERROR** — identity preserving image generation reference: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T145616Z.md: - **COLLECTOR ERROR** — multi reference image generation identity: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T145616Z.md: - **COLLECTOR ERROR** — subject driven image generation pose expression identity: arXiv collection failed: TimeoutError: The read operation timed out
-- 20260915T145616Z.md: - **COLLECTOR ERROR** — LLM agent failure recovery tool calling: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T151529Z.md: - **COLLECTOR ERROR** — large language model instruction following agent tool use: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T151529Z.md: - **COLLECTOR ERROR** — long context language model instruction following: arXiv collection failed: TimeoutError: The read operation timed out
-- 20260915T151529Z.md: - **COLLECTOR ERROR** — LLM agent reliability tool use: arXiv collection failed: TimeoutError: The read operation timed out
-- 20260915T151529Z.md: - **COLLECTOR ERROR** — LLM self correction external feedback: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T151529Z.md: - **COLLECTOR ERROR** — identity preserving image generation reference: arXiv collection failed: TimeoutError: The read operation timed out
-- 20260915T151529Z.md: - **COLLECTOR ERROR** — multi reference image generation identity: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T151529Z.md: - **COLLECTOR ERROR** — subject driven image generation pose expression identity: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
-- 20260915T151529Z.md: - **COLLECTOR ERROR** — LLM agent failure recovery tool calling: arXiv collection failed: TimeoutError: The read operation timed out
+- 20260915T152813Z.md: - **COLLECTOR ERROR** — LLM agent reliability tool use: arXiv collection failed: TimeoutError: The read operation timed out
+- 20260915T152813Z.md: - **COLLECTOR ERROR** — LLM self correction external feedback: arXiv collection failed: HTTPError: HTTP Error 429: Too Many Requests
+- 20260915T152813Z.md: - **COLLECTOR ERROR** — identity preserving image generation reference: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T152813Z.md: - **COLLECTOR ERROR** — multi reference image generation identity: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T152813Z.md: - **COLLECTOR ERROR** — subject driven image generation pose expression identity: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T152813Z.md: - **COLLECTOR ERROR** — LLM agent failure recovery tool calling: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T154345Z.md: - **COLLECTOR ERROR** — large language model instruction following agent tool use: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T154345Z.md: - **COLLECTOR ERROR** — long context language model instruction following: arXiv collection failed: TimeoutError: The read operation timed out
+- 20260915T154345Z.md: - **COLLECTOR ERROR** — LLM agent reliability tool use: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T154345Z.md: - **COLLECTOR ERROR** — LLM self correction external feedback: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T154345Z.md: - **COLLECTOR ERROR** — identity preserving image generation reference: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T154345Z.md: - **COLLECTOR ERROR** — multi reference image generation identity: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T154345Z.md: - **COLLECTOR ERROR** — subject driven image generation pose expression identity: arXiv collection failed: TimeoutError: The read operation timed out
+- 20260915T154345Z.md: - **COLLECTOR ERROR** — LLM agent failure recovery tool calling: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T155451Z.md: - **COLLECTOR ERROR** — large language model instruction following agent tool use: arXiv collection failed: TimeoutError: The read operation timed out
+- 20260915T155451Z.md: - **COLLECTOR ERROR** — long context language model instruction following: arXiv collection failed: TimeoutError: The read operation timed out
+- 20260915T155451Z.md: - **COLLECTOR ERROR** — LLM agent reliability tool use: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T155451Z.md: - **COLLECTOR ERROR** — LLM self correction external feedback: arXiv collection failed: TimeoutError: The read operation timed out
+- 20260915T155451Z.md: - **COLLECTOR ERROR** — identity preserving image generation reference: arXiv collection failed: TimeoutError: The read operation timed out
+- 20260915T155451Z.md: - **COLLECTOR ERROR** — multi reference image generation identity: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T155451Z.md: - **COLLECTOR ERROR** — subject driven image generation pose expression identity: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T155451Z.md: - **COLLECTOR ERROR** — LLM agent failure recovery tool calling: arXiv collection failed: TimeoutError: The read operation timed out
+- 20260915T161547Z.md: - **COLLECTOR ERROR** — large language model instruction following agent tool use: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T161547Z.md: - **COLLECTOR ERROR** — long context language model instruction following: arXiv collection failed: HTTPError: HTTP Error 429: Too Many Requests
+- 20260915T161547Z.md: - **COLLECTOR ERROR** — LLM agent reliability tool use: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T161547Z.md: - **COLLECTOR ERROR** — LLM self correction external feedback: arXiv collection failed: HTTPError: HTTP Error 429: Unknown Error
+- 20260915T161547Z.md: - **COLLECTOR ERROR** — identity preserving image generation reference: arXiv collection failed: HTTPError: HTTP Error 429: Too Many Requests
+- 20260915T161547Z.md: - **COLLECTOR ERROR** — multi reference image generation identity: arXiv collection failed: TimeoutError: The read operation timed out
+- 20260915T161547Z.md: - **COLLECTOR ERROR** — subject driven image generation pose expression identity: arXiv collection failed: TimeoutError: The read operation timed out
+- 20260915T161547Z.md: - **COLLECTOR ERROR** — LLM agent failure recovery tool calling: arXiv collection failed: TimeoutError: The read operation timed out
