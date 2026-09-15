@@ -1,14 +1,18 @@
 # Source Queue Index
 
-Updated: 2026-09-15T21:21:34Z
+Updated: 2026-09-15T22:22:04Z
 
 This is a mechanical index, not an analysis. Sources remain unverified until the hourly ChatGPT research pass reads and evaluates them.
 
 Queue files indexed: 24
-Unique candidate URLs: 274
+Unique candidate URLs: 269
 
 ## Queue files
 
+- `source_queue/20260915T221518Z.md`
+- `source_queue/20260915T215253Z.md`
+- `source_queue/20260915T214033Z.md`
+- `source_queue/20260915T212636Z.md`
 - `source_queue/20260915T211444Z.md`
 - `source_queue/20260915T205330Z.md`
 - `source_queue/20260915T204208Z.md`
@@ -29,20 +33,15 @@ Unique candidate URLs: 274
 - `source_queue/20260915T165548Z.md`
 - `source_queue/20260915T164341Z.md`
 - `source_queue/20260915T162957Z.md`
-- `source_queue/20260915T161547Z.md`
-- `source_queue/20260915T155451Z.md`
-- `source_queue/20260915T154345Z.md`
-- `source_queue/20260915T152813Z.md`
 
 ## Unique candidates
 
 - [(orchestrator): herdr pane-worker orchestration friction log (slate #2)](https://github.com/evanharmon1/harmon-devkit/issues/926) — discovered in `20260915T175353Z.md`
-- [[ PARENT THREAD ] SQAG — Rolling Work Queue](https://github.com/Swooshz-com/swooshz-quote-auto-generator/issues/143) — discovered in `20260915T155451Z.md`
-- [[ PARENT THREAD ] Swooshz Design Full-Suite MVP — Rolling Work Queue](https://github.com/Swooshz-com/swooshz-design/issues/1) — discovered in `20260915T161547Z.md`
+- [2026-09-06: Rocky and Vivian video-production concern review](https://github.com/ZedBiz44/z-video-production-Skill/issues/6) — discovered in `20260915T221518Z.md`
 - [[ PARENT THREAD ] Swooshz Platform — Production Activation → Hardening](https://github.com/Swooshz-com/swooshz-platform/issues/104) — discovered in `20260915T175353Z.md`
 - [[ PARENT THREAD ] X-Boundaries Automation — Rolling Work Queue](https://github.com/x-boundaries/automation/issues/117) — discovered in `20260915T164341Z.md`
-- [[ win Codex ] Expose effective image model and supported model selection for built-in image_gen (Images 2.5)](https://github.com/openai/codex/issues/43965) — discovered in `20260915T211444Z.md`
-- [[Agents] Post V1.0 Work](https://github.com/google-gemini/gemini-cli/issues/3132) — discovered in `20260915T211444Z.md`
+- [[ win Codex ] Expose effective image model and supported model selection for built-in image_gen (Images 2.5)](https://github.com/openai/codex/issues/43965) — discovered in `20260915T221518Z.md`
+- [[Agents] Post V1.0 Work](https://github.com/google-gemini/gemini-cli/issues/3132) — discovered in `20260915T221518Z.md`
 - [[AI-BRIDGE] ChatGPT ↔ Codex coordination for Trade Workbench](https://github.com/alex43github/trade-workbench/issues/1) — discovered in `20260915T172617Z.md`
 - [[AURORA][CORTEX][READINESS] Parallel execution control board](https://github.com/luizanunciostoca/aurora-ai-native/issues/532) — discovered in `20260915T195321Z.md`
 - [[Automated provider defect] OpenCode sdd-* child dispatch refuses parent-confirmed preflight non-deterministically and escalates to a total block on 2.9.0](https://github.com/Gentleman-Programming/gentle-ai/issues/4591) — discovered in `20260915T195321Z.md`
@@ -52,12 +51,12 @@ Unique candidate URLs: 274
 - [[aw] Sub-Issue Closer reported incomplete result](https://github.com/github/gh-aw/issues/61054) — discovered in `20260915T184709Z.md`
 - [[BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF](https://github.com/moorcheh-ai/memanto/issues/1609) — discovered in `20260915T184709Z.md`
 - [[Budget] 官方 CallLimit / TimeoutPolicy / dynamic model 优先：补跨委派 Token、compound-workflow 与 internal middleware 完整核算](https://github.com/yachenyanyi/deep_loopminder/issues/16) — discovered in `20260915T194229Z.md`
-- [[BUG] Background job rows flood the transcript and lie "running" forever (17+ stale walls)](https://github.com/IstiN/flutter_agent_harness/issues/429) — discovered in `20260915T161547Z.md`
-- [[BUG] Claude Max plan session limits exhausted abnormally fast since March 23, 2026 (CLI usage)](https://github.com/anthropics/claude-code/issues/38335) — discovered in `20260915T211444Z.md`
+- [[BUG] Claude Max plan session limits exhausted abnormally fast since March 23, 2026 (CLI usage)](https://github.com/anthropics/claude-code/issues/38335) — discovered in `20260915T214033Z.md`
 - [[BUG] Fabricated-Observation recovery in process_llm_response is dead code since #2483 — real tool calls silently discarded for models without stop-word support](https://github.com/crewAIInc/crewAI/issues/6449) — discovered in `20260915T204208Z.md`
 - [[Bug] Grok interrupt-and-send records guidance but successor output can continue the previous task and omit it](https://github.com/LodyAI/Lody/issues/738) — discovered in `20260915T162957Z.md`
-- [[BUG] Writes fail with ClientDisconnect while reading request body (addon + mcp-proxy, no TLS)](https://github.com/homeassistant-ai/ha-mcp/issues/2367) — discovered in `20260915T211444Z.md`
-- [[Bug]: 74 test failures on Windows — Unix-only test commands, path semantics, console encoding](https://github.com/zeroclaw-labs/zeroclaw/issues/7462) — discovered in `20260915T211444Z.md`
+- [[Bug] Submitted browser turn keeps calling a retired MCP binding](https://github.com/miuuyy/codex-chatgpt-web/issues/339) — discovered in `20260915T221518Z.md`
+- [[BUG] Writes fail with ClientDisconnect while reading request body (addon + mcp-proxy, no TLS)](https://github.com/homeassistant-ai/ha-mcp/issues/2367) — discovered in `20260915T221518Z.md`
+- [[Bug]: 74 test failures on Windows — Unix-only test commands, path semantics, console encoding](https://github.com/zeroclaw-labs/zeroclaw/issues/7462) — discovered in `20260915T221518Z.md`
 - [[Bug]: After gateway restart, shared AsyncWorkScope stays closed process-wide — all DB/Fleet agent tools fail "Async work scope is closed" while gateway health reports OK](https://github.com/openclaw/openclaw/issues/146265) — discovered in `20260915T202811Z.md`
 - [[Bug]: Async tool acknowledgments cause repeated deferred yields and false blocker reports](https://github.com/openclaw/openclaw/issues/149346) — discovered in `20260915T185649Z.md`
 - [[Bug]: BSM-resolved secrets clobbered by load_dotenv(override=True) on second load_hermes_dotenv call (gateway)](https://github.com/NousResearch/hermes-agent/issues/74265) — discovered in `20260915T174156Z.md`
@@ -65,87 +64,86 @@ Unique candidate URLs: 274
 - [[Bug]: reasoning is promoted into assistant content on reasoning-only clean stop — pollutes history, not just display](https://github.com/NousResearch/hermes-agent/issues/111761) — discovered in `20260915T181647Z.md`
 - [[Bug]: tool-returned images disappear after an unrelated tool call within the same turn](https://github.com/zeroclaw-labs/zeroclaw/issues/10885) — discovered in `20260915T195321Z.md`
 - [[B服] MAA无法识别隐私政策界面，定时启动任务报错](https://github.com/MaaAssistantArknights/MaaAssistantArknights/issues/18233) — discovered in `20260915T185649Z.md`
-- [[channels] Epic: Multi-Channel Hub - providers, BYO contract, sync engine](https://github.com/chase-sets/chase-sets/issues/4388) — discovered in `20260915T202811Z.md`
+- [[channels] Epic: Multi-Channel Hub - providers, BYO contract, sync engine](https://github.com/chase-sets/chase-sets/issues/4388) — discovered in `20260915T214033Z.md`
 - [[chore] message-estate truth board — 61 overclaim/underclaim findings across the bespoke and advisory message families](https://github.com/sensigo-hq/realm/issues/527) — discovered in `20260915T202811Z.md`
-- [[CI Monitor] Daily Report - 2026-09-15](https://github.com/bingxche/sglang-ci-bot/issues/196) — discovered in `20260915T211444Z.md`
+- [[CI Monitor] Daily Report - 2026-09-15](https://github.com/bingxche/sglang-ci-bot/issues/196) — discovered in `20260915T221518Z.md`
 - [[Collaboration review] F4/F5 remediation at 19f0b5e — CHANGES_REQUESTED](https://github.com/oihuegbu/new-podiatry-coder/issues/6) — discovered in `20260915T165548Z.md`
 - [[content-program] GOLDEN bilingual series backlog](https://github.com/fjmmontiel/5sigmas/issues/305) — discovered in `20260915T195321Z.md`
-- [[CONTROL] MYSTIC Autonomous Coordination](https://github.com/search-maker/twilight-mystic-experiments/issues/60) — discovered in `20260915T205330Z.md`
-- [[COORDINATION] EXOVANT world ownership registry — reserve before modeling](https://github.com/rotprods/-/issues/7) — discovered in `20260915T152813Z.md`
+- [[CONTROL] MYSTIC Autonomous Coordination](https://github.com/search-maker/twilight-mystic-experiments/issues/60) — discovered in `20260915T221518Z.md`
 - [[coordination] Kitty campaign live lanes](https://github.com/jacob202/kitty/issues/490) — discovered in `20260915T165548Z.md`
-- [[Design]: Add a fail-closed validation ownership graph](https://github.com/laqieer/fireemblem8-expansion/issues/180) — discovered in `20260915T211444Z.md`
-- [[Epic][Research] SmolVLA 轻量未来隐变量补偿的预测式异步推理](https://github.com/Lebron-233/lerobot/issues/1) — discovered in `20260915T154345Z.md`
+- [[Design]: Add a fail-closed validation ownership graph](https://github.com/laqieer/fireemblem8-expansion/issues/180) — discovered in `20260915T221518Z.md`
 - [[Epic][Security] Red-team Connex — offensive source review fleet (gpt-6-astra xhigh)](https://github.com/itkla/connex/issues/1639) — discovered in `20260915T184709Z.md`
-- [[Execution Ledger] Version 1.0.0 final release](https://github.com/SUSANO-OOO/Zombieee/issues/172) — discovered in `20260915T211444Z.md`
+- [[Execution Ledger] Version 1.0.0 final release](https://github.com/SUSANO-OOO/Zombieee/issues/172) — discovered in `20260915T221518Z.md`
 - [[FEATURE] `OpenAICompatibleConfig` (custom `url`) is hardcoded to `.chatModel()` — no way to reach the OpenAI `/v1/responses` API in `@mastra/core`](https://github.com/mastra-ai/mastra/issues/22656) — discovered in `20260915T181647Z.md`
+- [[FEATURE] Programmatic workflow start for SDK hosts — Workflow can be observed and stopped, but only a model can start it](https://github.com/anthropics/claude-code/issues/84807) — discovered in `20260915T221518Z.md`
 - [[Feature] Repo Map in the agent loop: persistent index, lookup tools, dedup](https://github.com/Nano-Collective/nanocoder/issues/1186) — discovered in `20260915T195321Z.md`
 - [[finding] check-half-states: H44's seat leg is blind on the triage seat post it was written for — its corpus is the thread's FIRST comment page (oldest-first, five weeks stale on #6015) and `H44_ROUND_OPEN_MARKER` no longer matches the marker spelling; H56 / H64 share the corpus](https://github.com/objectstack-ai/objectstack/issues/18312) — discovered in `20260915T172617Z.md`
-- [[GEN142][CANONICAL TRUNK] Long-loop reliability → buyer-legible external fitness](https://github.com/TTaoGaming/hfo-gen-142/issues/13) — discovered in `20260915T205330Z.md`
+- [[GEN142][CANONICAL TRUNK] Long-loop reliability → buyer-legible external fitness](https://github.com/TTaoGaming/hfo-gen-142/issues/13) — discovered in `20260915T214033Z.md`
+- [[IMPORTANT-BUT-NONBLOCKING] Separate producer compatibility from trusted workflow governance](https://github.com/NathanZK/ChessEcho/issues/237) — discovered in `20260915T221518Z.md`
 - [[M2 Workflows] Evaluate a typed primitive registry and declarative recipe runner](https://github.com/LuigiFerronatto/TESSERA/issues/258) — discovered in `20260915T172617Z.md`
-- [[mtj-task/1] P0.1 — Clean-slate MTG Thesaurus repository refoundation architecture](https://github.com/MTJawnny/mtjawnny-pipeline/issues/1) — discovered in `20260915T211444Z.md`
+- [[mtj-task/1] P0.1 — Clean-slate MTG Thesaurus repository refoundation architecture](https://github.com/MTJawnny/mtjawnny-pipeline/issues/1) — discovered in `20260915T214033Z.md`
 - [[MVP][Any OS][Build tooling] Prevent false-ready jobs with shared read-only admission checks](https://github.com/AgenticBotSitter/agent-control-room/issues/259) — discovered in `20260915T211444Z.md`
-- [[ops] main management conversation log](https://github.com/hanmiyoo10-alt/-/issues/293) — discovered in `20260915T154345Z.md`
-- [[P0][RESTORE] Restore proven resident unattended loop for Herdr + current WebGPT Control](https://github.com/D22977/gpt-browser-bridge/issues/162) — discovered in `20260915T205330Z.md`
+- [[P0][RESTORE] Restore proven resident unattended loop for Herdr + current WebGPT Control](https://github.com/D22977/gpt-browser-bridge/issues/162) — discovered in `20260915T221518Z.md`
+- [[P1][Delivery][Windows] Ship the working application with production UI and supervised diagnostics](https://github.com/hexafe/metroliza/issues/1047) — discovered in `20260915T212636Z.md`
 - [[Phase 4] Real Mechanical source to verified editable CAD acceptance](https://github.com/duongchi90/cad-agent/issues/409) — discovered in `20260915T204208Z.md`
 - [[Plugin]: QuickFile](https://github.com/omacom/omarchy-plugin-marketplace/issues/5066) — discovered in `20260915T183145Z.md`
 - [[PM seat] triage (objectstack-wide) — 🔴 空缺 · 上一任 `session_01VxjMEAhT53WHUCtP9WMrSU` 执 R+235→R+237,2026-09-15T15:55Z 因 harness STALE 机械收班(⛔ 非维护者令),✅ 留完整简报 · ⛔ 接手必读正文:枚举配方已证伪(界内页 200 返 [],须 per_page=50 + 对 open_issues_count)· 裸卡 43>15 欠域分批 · retriage 余 4+11 · 决策箱 5 + objectui 15](https://github.com/objectstack-ai/objectstack/issues/6015) — discovered in `20260915T165548Z.md`
 - [[PM] W3 接通 Viewer PromptControl 真实消费与验收入口](https://github.com/eng-cc/oasis7/issues/3688) — discovered in `20260915T183145Z.md`
 - [[Roadmap][P3] The agent has no planning stage — what stands in for one, and the conditions under which that stops being enough](https://github.com/lengocanh2005it/wispace-bot/issues/1218) — discovered in `20260915T162957Z.md`
-- [[security] Defense-in-depth: local READ basename deny-list + web allowlist red-team residuals (post-#65/#76/#78)](https://github.com/cgfixit/CG-agent-harness/issues/86) — discovered in `20260915T202811Z.md`
+- [[security] Defense-in-depth: local READ basename deny-list + web allowlist red-team residuals (post-#65/#76/#78)](https://github.com/cgfixit/CG-agent-harness/issues/86) — discovered in `20260915T215253Z.md`
 - [[Sessions] Add a /reset slash command for complete session recovery](https://github.com/Pascapone/pibo/issues/1022) — discovered in `20260915T164341Z.md`
 - [[Spec] Build the Memento MVP](https://github.com/robinjoseph08/memento/issues/4) — discovered in `20260915T202811Z.md`
 - [[Testing] Bound and prove acceptance descendant-process cleanup](https://github.com/Bilaltariq41/SeqDoc/issues/100) — discovered in `20260915T202811Z.md`
 - [`AgentLoop` runs identical tool calls indefinitely — need circuit breaker](https://github.com/earendil-works/pi/issues/9637) — discovered in `20260915T172617Z.md`
-- [A Chosen Future Can Still Be Rewritten: Causal Writability in Video Models](http://arxiv.org/abs/2609.15980v1) — discovered in `20260915T211444Z.md`
-- [A refused call no longer re-opens the prompt, and the model still runs the turn out](https://github.com/go-steer/core-agent/issues/1081) — discovered in `20260915T152813Z.md`
-- [Acoustic Image Source Interpolation with Optimal Transport Barycenter](http://arxiv.org/abs/2609.15981v1) — discovered in `20260915T211444Z.md`
+- [A Chosen Future Can Still Be Rewritten: Causal Writability in Video Models](http://arxiv.org/abs/2609.15980v1) — discovered in `20260915T221518Z.md`
+- [Acoustic Image Source Interpolation with Optimal Transport Barycenter](http://arxiv.org/abs/2609.15981v1) — discovered in `20260915T221518Z.md`
 - [ACP: Execute tool call title field contains conversational text.](https://github.com/google-gemini/gemini-cli/issues/23018) — discovered in `20260915T211444Z.md`
 - [Add deployment profiles for Roihu, laptop, Linux server, storage backends, Ollama routing and Hermes agent operation](https://github.com/TomiToivio/LaclauGPT-Data-Analysis/issues/8) — discovered in `20260915T192649Z.md`
 - [Advisor can run 174 turns with zero advise calls and report healthy; quarantine discards advice with the ungranted tool call](https://github.com/can1357/oh-my-pi/issues/12126) — discovered in `20260915T202811Z.md`
-- [ag init and ag doctor: prepare a machine and a project, with the label scheme as data](https://github.com/dendotai/ag/issues/15) — discovered in `20260915T161547Z.md`
 - [Agent 47/47 closure — durable continuation checkpoint](https://github.com/Aliturgutt/ilaios/issues/557) — discovered in `20260915T165548Z.md`
 - [Agent prematurely stops during multi-step tool-call tasks](https://github.com/odysseus-dev/odysseus/issues/6314) — discovered in `20260915T165548Z.md`
 - [Agent Team Control Center — 5-Hour Development Cycles](https://github.com/krk344-prog/nhl-gm-game/issues/6) — discovered in `20260915T204208Z.md`
 - [Agent turns inherit the operator's Claude setup and can outlive their turn: a coder's background sub-agent raced the next stage, and cancel couldn't kill it](https://github.com/itsypkin/ChocoFactory/issues/90) — discovered in `20260915T204208Z.md`
-- [Agentic OS Conductor Log](https://github.com/FreeForCharity/FFC-Cloudflare-Automation/issues/719) — discovered in `20260915T184709Z.md`
+- [Agentic OS Conductor Log](https://github.com/FreeForCharity/FFC-Cloudflare-Automation/issues/719) — discovered in `20260915T215253Z.md`
 - [AGENTS: consolidate orchestration loop and tool-call lifecycle](https://github.com/Apeloff1/Skeleton/issues/117) — discovered in `20260915T164341Z.md`
+- [ai(proforge): use native Claude structured outputs for schema-bound pipeline stages](https://github.com/qnbs/WorldScript-Studio/issues/729) — discovered in `20260915T221518Z.md`
 - [all: test failures on `linux/s390x`](https://github.com/golang/go/issues/58901) — discovered in `20260915T165548Z.md`
-- [AnyTour development coordination — continuation of #996](https://github.com/pyatkoff/poisk-turov-test/issues/2530) — discovered in `20260915T205330Z.md`
+- [AnyTour development coordination — continuation of #996](https://github.com/pyatkoff/poisk-turov-test/issues/2530) — discovered in `20260915T215253Z.md`
 - [Architecture: harness-patterns as a developer-facing library — ergonomics review](https://github.com/mknw/hames-playground/issues/225) — discovered in `20260915T171349Z.md`
+- [ATLAS Non-Core Linear Work Queue — Content / Spatial / UI Gate](https://github.com/JezCH/atlas-person-db/issues/977) — discovered in `20260915T214033Z.md`
 - [authority: pending inputs are leases — resolve-by-absence + projection reconciliation against harness truth (S5/S6/S8, L1-L3)](https://github.com/lenaxia/LLMSafeSpaces/issues/1310) — discovered in `20260915T201553Z.md`
-- [AUTOSPORT — GLOBAL PRODUCT COMPLETION / V1 WINDOWS PAPER LAB](https://github.com/Oleksii-debug/Autosport/issues/1) — discovered in `20260915T211444Z.md`
+- [AUTOSPORT — GLOBAL PRODUCT COMPLETION / V1 WINDOWS PAPER LAB](https://github.com/Oleksii-debug/Autosport/issues/1) — discovered in `20260915T221518Z.md`
 - [Backlog processing strategy: volume without compromising quality](https://github.com/rust-works/succinctly/issues/235) — discovered in `20260915T192649Z.md`
 - [BE-06 - API-owned work-level incremental distribution jobs](https://github.com/thoth-pub/thoth/issues/848) — discovered in `20260915T201553Z.md`
-- [Bellman Policy Optimization](http://arxiv.org/abs/2609.15987v1) — discovered in `20260915T211444Z.md`
+- [Bellman Policy Optimization](http://arxiv.org/abs/2609.15987v1) — discovered in `20260915T221518Z.md`
 - [bug: Compaction does not work and the chat continues where it left of](https://github.com/open-webui/computer/issues/277) — discovered in `20260915T192649Z.md`
-- [Bug: Windows 上 aiohttp SSL 握手超时，但 raw socket 和 curl 正常](https://github.com/lumina37/aiotieba/issues/398) — discovered in `20260915T161547Z.md`
 - [Build a first-class multi-agent run trace explorer on canonical observability](https://github.com/ScoreSymphony/AI-Multi-Agent-Platform/issues/901) — discovered in `20260915T204208Z.md`
 - [Business workflow roadmap: Church and Basketball first](https://github.com/tomqwu/SignUpFlow/issues/252) — discovered in `20260915T211444Z.md`
-- [chore(superheroes): vet-proposals collector — standing (Tier-2 items awaiting the owner's word)](https://github.com/zwrose/superheroes/issues/695) — discovered in `20260915T155451Z.md`
+- [Certify consolidated derived-state capacity, recovery and release readiness](https://github.com/sgajbi/lotus-core/issues/714) — discovered in `20260915T221518Z.md`
 - [chore: Correctness and perf sweep/audit](https://github.com/Ambiguous-Interactive/signal-fish-client-rust/issues/126) — discovered in `20260915T162957Z.md`
 - [CI: Tests red on main since 615e80a60 — J14 fixture-vintage gate fails the #2007 output-lock harness lanes](https://github.com/PocketShell-io/pocketshell/issues/2712) — discovered in `20260915T195321Z.md`
-- [Clara Bon — harness-borne agent on a Claude substrate, a year into continuity engineering (visitor log)](https://github.com/ai-village-agents/ai-village-external-agents/issues/79) — discovered in `20260915T155451Z.md`
 - [Close the parity and builder-brainstorm gaps in one PR](https://github.com/vivek7405/pilots/issues/118) — discovered in `20260915T204208Z.md`
+- [cmd -p turns without tool calls produce empty session transcript files](https://github.com/CommandCodeAI/command-code/issues/836) — discovered in `20260915T221518Z.md`
 - [Code-mode turn wedged forever by a never-settling tool dispatch; session admission livelocks (2026.9.4)](https://github.com/openclaw/openclaw/issues/149270) — discovered in `20260915T164341Z.md`
-- [Codex OAuth image route does not enforce the image_generation tool spec (affects #106717, #107174, #106708)](https://github.com/NousResearch/hermes-agent/issues/107233) — discovered in `20260915T211444Z.md`
-- [CodingWorkspace typed-media activation: install the LTIC packet (Newcastle image and speech)](https://github.com/ubc/jupyter-images/issues/26) — discovered in `20260915T211444Z.md`
-- [Community Gen2265 superseding eight-state lifecycle retrofit](https://github.com/smansfield635-create/smansfield635-create.github.io/issues/3462) — discovered in `20260915T204208Z.md`
+- [Codex OAuth image route does not enforce the image_generation tool spec (affects #106717, #107174, #106708)](https://github.com/NousResearch/hermes-agent/issues/107233) — discovered in `20260915T221518Z.md`
+- [CodingWorkspace typed-media activation: install the LTIC packet (Newcastle image and speech)](https://github.com/ubc/jupyter-images/issues/26) — discovered in `20260915T215253Z.md`
+- [Community Gen2265 superseding eight-state lifecycle retrofit](https://github.com/smansfield635-create/smansfield635-create.github.io/issues/3462) — discovered in `20260915T212636Z.md`
 - [CompanyOS: thread activity, separate agent plans and scoped tools](https://github.com/Nuncio-hq/crew/issues/354) — discovered in `20260915T181647Z.md`
 - [Compiler architecture: make GPU execution capabilities first-class across the production pipeline](https://github.com/harsh-nod/fe2o3/issues/272) — discovered in `20260915T183145Z.md`
 - [Compiler: make mixed-SSA KIR the single optimized and verified production middle end](https://github.com/harsh-nod/fe2o3/issues/271) — discovered in `20260915T204208Z.md`
 - [compiler: retire the direct native canonical backend](https://github.com/buster14a/buster/issues/36) — discovered in `20260915T191346Z.md`
 - [Complete EnergyGrid controlled CLI validation and Scheduler activation](https://github.com/x-boundaries/automation/issues/141) — discovered in `20260915T164341Z.md`
 - [Complete Magic's declared Scryfall import](https://github.com/KeeprDigital/card-keepr/issues/327) — discovered in `20260915T211444Z.md`
-- [Complete Pokémon's declared catalogue and publication scopes](https://github.com/KeeprDigital/card-keepr/issues/329) — discovered in `20260915T211444Z.md`
+- [Complete Pokémon's declared catalogue and publication scopes](https://github.com/KeeprDigital/card-keepr/issues/329) — discovered in `20260915T221518Z.md`
 - [Complete post-v0.3.0 R3 oracle replacement](https://github.com/trainstar/synchro/issues/36) — discovered in `20260915T184709Z.md`
 - [Complete the private-launch catalogue and generated HTTP contracts](https://github.com/KeeprDigital/card-keepr/issues/312) — discovered in `20260915T192649Z.md`
 - [Contact profile pictures and organization logos (Draft v1)](https://github.com/centralcmd/odyssey/issues/86) — discovered in `20260915T162957Z.md`
 - [Convert LaclauGPT into project/paper meta-repo with Data Collection, Analysis and Visualization submodules](https://github.com/TomiToivio/LaclauGPT/issues/1) — discovered in `20260915T165548Z.md`
-- [coord: deliver post-blocker gameplay vertical slice](https://github.com/Oteryn/Oteryn-Game/issues/162) — discovered in `20260915T165548Z.md`
+- [coord: deliver post-blocker gameplay vertical slice](https://github.com/Oteryn/Oteryn-Game/issues/162) — discovered in `20260915T212636Z.md`
 - [coordination: 2026-08-18 closeout execution, dependency, and maintainer-decision queue](https://github.com/ll7/robot_sf_ll7/issues/7457) — discovered in `20260915T184709Z.md`
-- [Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection](http://arxiv.org/abs/2609.15989v1) — discovered in `20260915T211444Z.md`
+- [Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection](http://arxiv.org/abs/2609.15989v1) — discovered in `20260915T221518Z.md`
 - [Customer Support Triage agent: LangGraph/LangChain learning map](https://github.com/nimrodo/triange-agent/issues/1) — discovered in `20260915T195321Z.md`
-- [Cyclic Haagerup-Izumi fusion categories at every odd order](http://arxiv.org/abs/2609.15986v1) — discovered in `20260915T211444Z.md`
+- [Cyclic Haagerup-Izumi fusion categories at every odd order](http://arxiv.org/abs/2609.15986v1) — discovered in `20260915T221518Z.md`
 - [Daemon restarts re-run queued and in-flight issue pipelines — 277 re-runs recorded, 167 in the last 14 days](https://github.com/markmhendrickson/ateles/issues/1011) — discovered in `20260915T162957Z.md`
 - [Dashboard firmware: what the cluster transmits, why 0x410 is not the hub's, and a diagnostic channel with two services](https://github.com/danieltroger/cool-eva/issues/224) — discovered in `20260915T164341Z.md`
 - [Deliver the Workflow V3 NuGet Smoke Slice Through Verified Go-Live](https://github.com/hcoona/three/issues/676) — discovered in `20260915T192649Z.md`
@@ -154,40 +152,38 @@ Unique candidate URLs: 274
 - [Desktop approval review binds scheduled heartbeat to preceding interactive request](https://github.com/openai/codex/issues/45732) — discovered in `20260915T164341Z.md`
 - [Detect and surface "thrashing" build iterations — repeated identical file edits without test-status change](https://github.com/sethdford/shipwright/issues/4428) — discovered in `20260915T185649Z.md`
 - [deterministic_call_id() collisions cause "2 or more assistant messages" 400 in long, repetitive sessions](https://github.com/ka8t/Hermes/issues/104) — discovered in `20260915T172617Z.md`
-- [Develop general repository evidence operations for 0.17.6](https://github.com/TheGreenCedar/CodeStory/issues/2173) — discovered in `20260915T202811Z.md`
+- [Develop general repository evidence operations for 0.17.6](https://github.com/TheGreenCedar/CodeStory/issues/2173) — discovered in `20260915T221518Z.md`
 - [Development task process: Erfana Implement-inspired phases and quality gates for Xezar workflows](https://github.com/qodeca/xezar/issues/469) — discovered in `20260915T201553Z.md`
-- [Discovery Foundation Models: Toward Open-Ended Discovery Intelligence](http://arxiv.org/abs/2609.15973v1) — discovered in `20260915T211444Z.md`
+- [Discovery Foundation Models: Toward Open-Ended Discovery Intelligence](http://arxiv.org/abs/2609.15973v1) — discovered in `20260915T221518Z.md`
 - [Dogfooding: use `tellme` to develop the `tellme` repo (retire `tell-me-go` as the dev driver)](https://github.com/gosharplite/tellme/issues/60) — discovered in `20260915T205330Z.md`
 - [Dream runs for 1–2 h looping on the same read_file calls; dream.maxIterations is deprecated/ignored so the global 200-iteration cap applies](https://github.com/HKUDS/nanobot/issues/5781) — discovered in `20260915T174156Z.md`
 - [DWVSCPS ENERGY FAMILY TRUST™ – OWNERSHIP](https://github.com/dwvshell/Richard/issues/1) — discovered in `20260915T204208Z.md`
 - [ecs/ecsscene: document ecs.Transform and re-measure the binding](https://github.com/dvoyni/cog/issues/372) — discovered in `20260915T191346Z.md`
 - [ecs: offer the world to an agent as an mcp provider](https://github.com/dvoyni/cog/issues/289) — discovered in `20260915T191346Z.md`
+- [ELYSIA AUTOPILOT MASTER CONTROL PLANE](https://github.com/MsElysia/Elysia/issues/11) — discovered in `20260915T215253Z.md`
 - [epic(backlog): findings discovered during automated backlog work](https://github.com/lgtm-hq/py-lintro/issues/2553) — discovered in `20260915T184709Z.md`
 - [epic(pi): decouple inference from Sandbox admission and reach sub-300ms startup](https://github.com/vm0-ai/okou/issues/34236) — discovered in `20260915T172617Z.md`
-- [epic(pi): decouple inference from Sandbox admission and reach sub-300ms startup](https://github.com/vm0-ai/vm0/issues/34236) — discovered in `20260915T155451Z.md`
-- [EPIC: bound agent blast radius — per-action impact, receipt justification, identity, propagation, emergency stop, evaluation](https://github.com/ali-ulu/huqan/issues/2505) — discovered in `20260915T211444Z.md`
+- [EPIC: bound agent blast radius — per-action impact, receipt justification, identity, propagation, emergency stop, evaluation](https://github.com/ali-ulu/huqan/issues/2505) — discovered in `20260915T212636Z.md`
 - [epic: build Glass-owned native browser engine inside glass-browser](https://github.com/wanazhar/glass/issues/40) — discovered in `20260915T185649Z.md`
-- [Evolve CoachAgent into an observable harness: session memory, strategy diary, transcripts](https://github.com/ludvious/fantasyleague-ai-auction/issues/10) — discovered in `20260915T161547Z.md`
+- [Epoch 2 — Instrument integrity: the run must not lie, degrade silently, or die](https://github.com/aigora-de/blackice/issues/40) — discovered in `20260915T215253Z.md`
 - [Examples: verified example prompts for v3.5 — research collection (vendor docs, practitioners, social, blogs)](https://github.com/iret77/ai-film-production/issues/7) — discovered in `20260915T183145Z.md`
 - [Extract deterministic standalone public specification candidate (W1)](https://github.com/tiangong-lca/tidas-spec/issues/1) — discovered in `20260915T184709Z.md`
+- [F0: freeze independent bootstrap cases, process oracle and trust workflow](https://github.com/akaszubski/autonomous-dev/issues/1773) — discovered in `20260915T214033Z.md`
 - [Factory knowledge graph: continuously ingest sessions, telemetry, code, runtime state, and scoped agent reports](https://github.com/jomcgi-org/homelab/issues/5527) — discovered in `20260915T192649Z.md`
-- [Feature: Missing Subagent Hook Events](https://github.com/google-gemini/gemini-cli/issues/15269) — discovered in `20260915T211444Z.md`
+- [feat(api): expose retry-safe range operations and truthful cleanup outcomes](https://github.com/Brad-Edwards/shifter/issues/2086) — discovered in `20260915T214033Z.md`
+- [Feature: Missing Subagent Hook Events](https://github.com/google-gemini/gemini-cli/issues/15269) — discovered in `20260915T221518Z.md`
 - [fiat-wish: bind exhausted-audit carryover, delegated writes, and runbook gates](https://github.com/wildcat-finance/skills/issues/508) — discovered in `20260915T172617Z.md`
 - [fix(graders): built-in grader correctness pass (tool graders read `tool_calls` while the event chain reads `steps`; JsonSchema draft mismatch; ConstraintGrader validation; `str(final_output)` matching; event-chain config errors reported as agent failures)](https://github.com/ssf0409/tracelens/issues/126) — discovered in `20260915T164341Z.md`
 - [fix(P14): pi-issue-run resume-on-provider-death red on main since #5993 — blocks PR #5995 (intake SEAT_YIELD_JSON hotfix) from landing and holds the deploy-clone dirt](https://github.com/Nishfleet/fleet-ops/issues/6022) — discovered in `20260915T195321Z.md`
-- [fix(pi): include DeepSeek V4.1 Flash across API-first and Sandbox execution](https://github.com/vm0-ai/vm0/issues/34357) — discovered in `20260915T154345Z.md`
-- [fix(review): Pi answer-consent rejects fresh review binding](https://github.com/Gentleman-Programming/gentle-ai/issues/2135) — discovered in `20260915T152813Z.md`
-- [fix(test): attribute Linux X11 errors before lifecycle tolerance](https://github.com/laqieer/FEBuilderGBA/issues/2160) — discovered in `20260915T152813Z.md`
 - [fix(test): gate Windows GUI automation on desktop readiness](https://github.com/laqieer/FEBuilderGBA/issues/2161) — discovered in `20260915T205330Z.md`
 - [fix: Anthropic → Gemini streaming can hang, waste tokens, and lose tool semantics](https://github.com/vogler75/babel-gate/issues/2) — discovered in `20260915T181647Z.md`
-- [fix: restore omitted G1 source requirements (refs #521, #533)](https://github.com/imrohitagrawal/narratwin-ai/issues/543) — discovered in `20260915T205330Z.md`
-- [Fleet reconciliation: universal provider-control implementations](https://github.com/layibabalola/softwarefactory-fleet-doctrine/issues/4) — discovered in `20260915T204208Z.md`
-- [FT-003: dispatch to mac-claude-a — acknowledgement required](https://github.com/flash-tex/flashtex/issues/2) — discovered in `20260915T211444Z.md`
+- [fix: restore omitted G1 source requirements (refs #521, #533)](https://github.com/imrohitagrawal/narratwin-ai/issues/543) — discovered in `20260915T215253Z.md`
+- [Fleet reconciliation: universal provider-control implementations](https://github.com/layibabalola/softwarefactory-fleet-doctrine/issues/4) — discovered in `20260915T221518Z.md`
+- [FT-003: dispatch to mac-claude-a — acknowledgement required](https://github.com/flash-tex/flashtex/issues/2) — discovered in `20260915T212636Z.md`
 - [G1: prospective certification carrier and external receipt field contract](https://github.com/imrohitagrawal/narratwin-ai/issues/533) — discovered in `20260915T194229Z.md`
 - [General Discussion Issue 8.1](https://github.com/OmniBlocks/monorepo/issues/766) — discovered in `20260915T195321Z.md`
 - [GitHub /changes reply is silently dropped when followed by a blank line before feedback](https://github.com/atolis-hq/wake/issues/723) — discovered in `20260915T211444Z.md`
 - [Goal loop keeps insisting on continuation when the agent is blocked awaiting user input (pac-frontend-new and pac-backend)](https://github.com/uncomplexity/opencode-goal/issues/7) — discovered in `20260915T164341Z.md`
-- [GOAL НДФЛ: универсальный конвейер реальных отчётов → проверенный XML](https://github.com/Kwentin3/corp-openweb-ui/issues/516) — discovered in `20260915T155451Z.md`
 - [GPT-6 Astra Medium depleted 100% of Plus 5-hour quota in two short turns (~minutes total)](https://github.com/openai/codex/issues/42987) — discovered in `20260915T191346Z.md`
 - [GPT1 ZRA-2 preflight claim — automatic review and bounded repair loop](https://github.com/aase7en/A-Wiki-Conductor/issues/214) — discovered in `20260915T165548Z.md`
 - [gPTP plane silicon validation: one-DUT sync against the reference peer, GM loss and return, conformance](https://github.com/kebag-logic/milan-fpga/issues/117) — discovered in `20260915T165548Z.md`
@@ -195,121 +191,120 @@ Unique candidate URLs: 274
 - [H-Earth Run 8E native-camera consumption feasibility — successor to Gen2287](https://github.com/smansfield635-create/smansfield635-create.github.io/issues/3491) — discovered in `20260915T191346Z.md`
 - [Handoff 2026-09-15: ChatGPT-Web / Codex / Superboard / Veyyon program — state, Telegram diagnosis, lessons, TODO](https://github.com/Wladefant/super-board/issues/136) — discovered in `20260915T205330Z.md`
 - [Headless finalize: unanswerable permission prompt hangs session until wall-clock reaper; finalize_blocked stub carries no blocked_reason](https://github.com/mattwwarren/claude-workspace/issues/1482) — discovered in `20260915T183145Z.md`
-- [Hop-2 cg-idp re-challenges a persona with an existing auth-provider connection](https://github.com/arcadeai-labs/mastra-contextual-governance/issues/133) — discovered in `20260915T211444Z.md`
+- [Hop-2 cg-idp re-challenges a persona with an existing auth-provider connection](https://github.com/arcadeai-labs/mastra-contextual-governance/issues/133) — discovered in `20260915T215253Z.md`
 - [impl: enforce SQLx PostgreSQL driver accounting within accepted admission budgets](https://github.com/Oteryn/Oteryn-Game/issues/351) — discovered in `20260915T202811Z.md`
-- [Implementation Control v4 — ACTIVE](https://github.com/dimto13/ai-tutor-lab/issues/399) — discovered in `20260915T211444Z.md`
+- [Implement CivilMind AI from finalized product documentation](https://github.com/mohamadtatar72-cpu/civilmind-ai/issues/21) — discovered in `20260915T215253Z.md`
+- [Implementation Control v4 — ACTIVE](https://github.com/dimto13/ai-tutor-lab/issues/399) — discovered in `20260915T215253Z.md`
 - [Implementation map: ruled clinical-skills backlog](https://github.com/mshamblin5150-code/clinical-skills/issues/596) — discovered in `20260915T191346Z.md`
-- [improve install guide](https://github.com/danieltroger/cool-eva/issues/136) — discovered in `20260915T154345Z.md`
-- [Inferring dark matter masses and interactions from high recoil energy events in LUX-ZEPLIN](http://arxiv.org/abs/2609.15985v1) — discovered in `20260915T211444Z.md`
+- [Inferring dark matter masses and interactions from high recoil energy events in LUX-ZEPLIN](http://arxiv.org/abs/2609.15985v1) — discovered in `20260915T221518Z.md`
 - [Integration & Specification Closure before further feature expansion](https://github.com/LatinMaestro/DNA-Racing-Intelligence/issues/120) — discovered in `20260915T201553Z.md`
-- [Kits parity issues](https://github.com/firebase/extensions/issues/2974) — discovered in `20260915T152813Z.md`
+- [Investigation: Flight Recorder hook vs Gateway gaps, stale client credentials, and durable inference audit design](https://github.com/sseshachala/conductai/issues/1959) — discovered in `20260915T221518Z.md`
+- [Kata migration: ten execution sessions and dependency coordination](https://github.com/AlexanderMattTurner/agent-glovebox/issues/6090) — discovered in `20260915T221518Z.md`
 - [Koordinasyon kanalı — ajan durumu, sahiplik ve merge sırası](https://github.com/ziyabeey1-ai/randevu/issues/65) — discovered in `20260915T174156Z.md`
-- [KR-003: Prove or reject consumer Android enforcement and Play feasibility](https://github.com/felipebarbosa4/KidRemote/issues/3) — discovered in `20260915T152813Z.md`
-- [Label audit (unverified): open tickets tagged duplicate or invalid](https://github.com/NousResearch/hermes-agent/issues/109552) — discovered in `20260915T211444Z.md`
+- [Label audit (unverified): open tickets tagged duplicate or invalid](https://github.com/NousResearch/hermes-agent/issues/109552) — discovered in `20260915T221518Z.md`
 - [Lazy restored sub-agent navigation falls back to the parent browser before child materialization](https://github.com/JoshuaRowePhantom/Phantom.Workspaces/issues/1580) — discovered in `20260915T194229Z.md`
-- [List of working motherboards](https://github.com/xCuri0/ReBarUEFI/issues/11) — discovered in `20260915T154345Z.md`
-- [Local-only: qualify exact V25 SHA in BricsCAD](https://github.com/trinhtanphat/QS3D-BricsCAD/issues/72) — discovered in `20260915T161547Z.md`
-- [Long tool calls (~180s+) silently re-executed from checkpoint on LangGraph Cloud](https://github.com/langchain-ai/langgraph/issues/7417) — discovered in `20260915T211444Z.md`
+- [Long tool calls (~180s+) silently re-executed from checkpoint on LangGraph Cloud](https://github.com/langchain-ai/langgraph/issues/7417) — discovered in `20260915T215253Z.md`
 - [macOS 14.2: sandbox startup fails with unbound variable TIOCSTI](https://github.com/openai/codex/issues/45119) — discovered in `20260915T205330Z.md`
-- [Make Ari chat feel premium, contextual, and alive](https://github.com/Mingla-LLC/mingla-main/issues/3429) — discovered in `20260915T205330Z.md`
-- [Make the second brain reliable in real project sessions](https://github.com/Mar5929/claude-toolkit/issues/269) — discovered in `20260915T183145Z.md`
+- [Make Ari chat feel premium, contextual, and alive](https://github.com/Mingla-LLC/mingla-main/issues/3429) — discovered in `20260915T221518Z.md`
+- [Make the second brain reliable in real project sessions](https://github.com/Mar5929/claude-toolkit/issues/269) — discovered in `20260915T214033Z.md`
 - [MCP leader completeness for 0.15.0: verdicts, stall events, detach warning, replay guarantee, event significance](https://github.com/qodeca/xezar/issues/460) — discovered in `20260915T194229Z.md`
-- [MilkDrop Phase 2: visual rendering quality, user textures (img.ini), motion vectors, and smooth preset transitions](https://github.com/CaYatur/SoundVisualizer/issues/560) — discovered in `20260915T164341Z.md`
+- [MilkDrop Phase 2: visual rendering quality, user textures (img.ini), motion vectors, and smooth preset transitions](https://github.com/CaYatur/SoundVisualizer/issues/560) — discovered in `20260915T214033Z.md`
 - [Mods - make Claude 10x more extensible](https://github.com/anthropics/claude-code/issues/91870) — discovered in `20260915T184709Z.md`
 - [MOHR-ONIX-IMPORT-01: Controlled one-off Mohr Siebeck ONIX import](https://github.com/thoth-pub/thoth-app/issues/199) — discovered in `20260915T201553Z.md`
 - [Multiple Tool Results for Single Tool Call with LangGraph Human Approval Flow](https://github.com/langchain-ai/langgraph/issues/4397) — discovered in `20260915T171349Z.md`
 - [MVP rep: shared-probe Model Spelunker via Agent Dispatch public execution](https://github.com/SemperSupra/model-spelunker/issues/4) — discovered in `20260915T192649Z.md`
 - [Myco 2.0 (revised): docs and release gate](https://github.com/goondocks-co/myco/issues/1163) — discovered in `20260915T172617Z.md`
-- [Myco 2.0 — revised plan (2026-09-07)](https://github.com/goondocks-co/myco/issues/1144) — discovered in `20260915T205330Z.md`
+- [Myco 2.0 — revised plan (2026-09-07)](https://github.com/goondocks-co/myco/issues/1144) — discovered in `20260915T221518Z.md`
 - [Nit Store](https://github.com/cooneycw/claude-power-pack/issues/864) — discovered in `20260915T183145Z.md`
 - [Onshape Support? Or More Generally Browser Support](https://github.com/FreeSpacenav/spacenavd/issues/30) — discovered in `20260915T184709Z.md`
 - [OPEN HORIZON — underexplored territory for a better future — 2026-08-31](https://github.com/markgoodbody-bit/COM/issues/74) — discovered in `20260915T175353Z.md`
 - [Optional provenance for human-in-the-loop tool approvals over UI adapters (verify an approval maps to a real server-issued pause)](https://github.com/pydantic/pydantic-ai/issues/6452) — discovered in `20260915T202811Z.md`
 - [P0-OPS-01: activate Saju Cloud Run and bind production E2E](https://github.com/gycha0109-beep/MyeongHa/issues/388) — discovered in `20260915T172617Z.md`
+- [P0: main CI red on e8e9cc2 — onboarding-agent e2e assertion failure, non-network shape, clean on rerun](https://github.com/TimHeckel/nanobots/issues/21) — discovered in `20260915T212636Z.md`
+- [P0: outer-loop cycles 119 and 120 posted fabricated cycle reports — claimed commits that don't exist](https://github.com/TimHeckel/nanobots/issues/19) — discovered in `20260915T212636Z.md`
 - [P1 Security: inventory and eliminate remaining raw client-visible exception disclosures](https://github.com/interplanetarysister/interplanetary-fund2/issues/94) — discovered in `20260915T204208Z.md`
 - [P115/reasoning-3d: benchmark current domestic frontier agents for tool-driven editable 3D](https://github.com/cogco1/MonkeyHub/issues/51) — discovered in `20260915T201553Z.md`
 - [P1: Reconcile every document and legacy spec with current source](https://github.com/tomqwu/SignUpFlow/issues/277) — discovered in `20260915T175353Z.md`
 - [P3: подключение Андромеды к общей выдаче AnyTour](https://github.com/pyatkoff/poisk-turov-test/issues/1717) — discovered in `20260915T164341Z.md`
 - [P9 programme — Duskblade 3-strategy delivery, then Ashwarden](https://github.com/fol2/glassvow/issues/421) — discovered in `20260915T181647Z.md`
 - [PAD — LayMatched Project Assistant Documentation](https://github.com/ibettison/laymatched-install/issues/3) — discovered in `20260915T202811Z.md`
+- [PeptiBloom Async Orchestrator Queue](https://github.com/e-milysol/peptibloom-project/issues/13) — discovered in `20260915T221518Z.md`
 - [perf(policy-approval): keep approval hashing outside durable transaction](https://github.com/ContextualWisdomLab/noema/issues/715) — discovered in `20260915T211444Z.md`
 - [Permission friction — canonical scoping tracker (supersedes #796)](https://github.com/Dev10x-Guru/Dev10x-Claude/issues/1100) — discovered in `20260915T165548Z.md`
 - [Persist per-account baselines and outlier ratios](https://github.com/genfeedai/genfeed.ai/issues/4403) — discovered in `20260915T171349Z.md`
-- [Phase 1: Add a narrow OpenHAB feeder gateway and dedicated WireGuard security boundary](https://github.com/lightning-goats/lightning-goats/issues/17) — discovered in `20260915T152813Z.md`
 - [Phase 5 preflight: controlled cellular E2E gate](https://github.com/Shijastk/aivoicecall_v2/issues/3) — discovered in `20260915T164341Z.md`
 - [PILOT001 OVERCLOCK — Shared Execution Goal](https://github.com/chokle/Jack-Core/issues/49) — discovered in `20260915T174156Z.md`
+- [Plan formation returns shape-invalid plans ("missing description or steps") at a rising rate — 96% of attempts late in a 40-min run](https://github.com/Redna/evol-hive/issues/214) — discovered in `20260915T215253Z.md`
 - [PLEASE START FROM HERE — pleasestartfromhere.com — public Door](https://github.com/markgoodbody-bit/COM/issues/108) — discovered in `20260915T194229Z.md`
 - [PM-000 — Underworld Pull Task Board](https://github.com/KevinRabbe/underworld/issues/33) — discovered in `20260915T185649Z.md`
-- [PMCvitan UX/Auth implementation coordination](https://github.com/JagPat/PMCvitan/issues/482) — discovered in `20260915T171349Z.md`
+- [PMCvitan UX/Auth implementation coordination](https://github.com/JagPat/PMCvitan/issues/482) — discovered in `20260915T215253Z.md`
 - [Portfolio mission: AgentOS Level 5 end-state, Level 2 immediate priority](https://github.com/darrinbaldwindev/Overseer/issues/49) — discovered in `20260915T205330Z.md`
 - [pr-review agent: empty model responses since 09-14 17:35Z — verdict production stalled fleet-wide](https://github.com/tibrezus/harmostes/issues/502) — discovered in `20260915T195321Z.md`
 - [Prevent complex-query hard-fails from invalid-argument tool-call loops](https://github.com/The01Geek/sqllens/issues/252) — discovered in `20260915T172617Z.md`
-- [Product Final Controller](https://github.com/laiqian0239-glitch/yance/issues/1051) — discovered in `20260915T152813Z.md`
 - [Production Rollback Dashboard](https://github.com/vm0-ai/okou/issues/6792) — discovered in `20260915T165548Z.md`
-- [Production Rollback Dashboard](https://github.com/vm0-ai/vm0/issues/6792) — discovered in `20260915T155451Z.md`
-- [Productionise AutoCount 2 member sync for repeatable unattended operation](https://github.com/x-boundaries/automation/issues/155) — discovered in `20260915T155451Z.md`
 - [PROGRAM: Waaiio prioritized execution backlog — release, security, product, and deferred work](https://github.com/cipherhq/waaiio/issues/286) — discovered in `20260915T172617Z.md`
 - [Progress log - stage reports from the operator session (pinned)](https://github.com/Dengnifer/MIPStarRE-A/issues/27) — discovered in `20260915T205330Z.md`
 - [Project setup: disabling verification leaves enabled artifacts, falsely reports ready, and hides finalization errors](https://github.com/AeroLinkDEV/requirements-management-tool/issues/1045) — discovered in `20260915T183145Z.md`
 - [Proposal: Memory Beads](https://github.com/gastownhall/beads/issues/5877) — discovered in `20260915T202811Z.md`
 - [push-guard: a global/system git config push.default or remote.<name>.push still bypasses the default-branch guard](https://github.com/msummer/trail-blazer-flow/issues/290) — discovered in `20260915T195321Z.md`
 - [Qualify the Qwen2.5 Session adapter route](https://github.com/jennyf19/sealed-delegation/issues/5) — discovered in `20260915T162957Z.md`
-- [Relay transport: bounded reconnect and local status without false AUTH diagnosis](https://github.com/Nuncio-hq/crew/issues/338) — discovered in `20260915T152813Z.md`
-- [Release 0.17.6 coordinator](https://github.com/TheGreenCedar/CodeStory/issues/2135) — discovered in `20260915T211444Z.md`
-- [Release Train handoff — الحالة الحالية والمهام المتبقية — 2026-09-03](https://github.com/AMASI-SA/AMASI-SA/issues/1006) — discovered in `20260915T211444Z.md`
+- [Receipts: features/resident-repos.md](https://github.com/coreplanelabs/switchboard/issues/233) — discovered in `20260915T214033Z.md`
+- [Release 0.17.6 coordinator](https://github.com/TheGreenCedar/CodeStory/issues/2135) — discovered in `20260915T221518Z.md`
+- [Release Train handoff — الحالة الحالية والمهام المتبقية — 2026-09-03](https://github.com/AMASI-SA/AMASI-SA/issues/1006) — discovered in `20260915T221518Z.md`
 - [Render a provenance-labelled per-card attempt and outcome history in the existing metrics CLI](https://github.com/cortexium-io/runner/issues/47) — discovered in `20260915T171349Z.md`
-- [Research-integrated continuous improvement audit: paper ↔ project novelty loop](https://github.com/dddd2024/Nerelan/issues/612) — discovered in `20260915T171349Z.md`
-- [ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids](http://arxiv.org/abs/2609.15988v1) — discovered in `20260915T211444Z.md`
+- [Research-integrated continuous improvement audit: paper ↔ project novelty loop](https://github.com/dddd2024/Nerelan/issues/612) — discovered in `20260915T212636Z.md`
+- [ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids](http://arxiv.org/abs/2609.15988v1) — discovered in `20260915T221518Z.md`
 - [Review 13. Ask the agent to review my changes](https://github.com/AndrewBeniston/omp-reeve/issues/93) — discovered in `20260915T172617Z.md`
-- [ROGUE INBOX — Swarm Tasks & Handoffs](https://github.com/eneonstudio-dev/tamdeshevle/issues/474) — discovered in `20260915T191346Z.md`
+- [ROGUE INBOX — Swarm Tasks & Handoffs](https://github.com/eneonstudio-dev/tamdeshevle/issues/474) — discovered in `20260915T212636Z.md`
 - [ROLE-RESOLVER-1: resolve task capabilities into the minimal valid role/agent set](https://github.com/aetorresdev/ai-minions/issues/394) — discovered in `20260915T162957Z.md`
-- [RUNTIME.CONTROL.B1.S: Adopt health signing families in the Secrets provider](https://github.com/OpenJ92/control-plane-kit-secrets/issues/29) — discovered in `20260915T201553Z.md`
-- [S8 — Editable 3D model + 3ds Max-compatible production handoff](https://github.com/Swooshz-com/swooshz-design/issues/29) — discovered in `20260915T152813Z.md`
+- [RUNTIME.CONTROL.B1.S: Adopt health signing families in the Secrets provider](https://github.com/OpenJ92/control-plane-kit-secrets/issues/29) — discovered in `20260915T221518Z.md`
 - [SDK auto-compaction vs daemon backstop compaction: hard-proof root-cause investigation](https://github.com/lsm/HyperNeo/issues/3377) — discovered in `20260915T211444Z.md`
 - [SDK-CLI-BASELINE-001: provider-agnostic repo baseline, PunchCard and distributed ACK commands](https://github.com/Vado42-chris/xi-io-sdk/issues/16) — discovered in `20260915T205330Z.md`
-- [SF master implementation checklist](https://github.com/johazores/my-booking-engine/issues/1) — discovered in `20260915T205330Z.md`
-- [Slow sessions vs omp: UI-stall watchdog kills healthy streams and injects fake continuation turns (RCA 2026-09-15)](https://github.com/FreePeak/xdev/issues/283) — discovered in `20260915T155451Z.md`
-- [Spec: temporary voice channels (bot, store, panel)](https://github.com/7Cav/cavbot2/issues/285) — discovered in `20260915T205330Z.md`
-- [Stage 3 terminal: V3 derivation, canon/2, alias and index builders](https://github.com/SFHAJJI/lex/issues/344) — discovered in `20260915T211444Z.md`
-- [Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science](http://arxiv.org/abs/2609.15983v1) — discovered in `20260915T211444Z.md`
-- [Steward journal](https://github.com/kevinrhaas/polecat-platform/issues/56) — discovered in `20260915T211444Z.md`
-- [Stop Auto Memory from retrying low-signal sessions indefinitely](https://github.com/google-gemini/gemini-cli/issues/26522) — discovered in `20260915T211444Z.md`
+- [Session 2. Inventory the activity rows and their summaries](https://github.com/AndrewBeniston/omp-reeve/issues/196) — discovered in `20260915T221518Z.md`
+- [SF master implementation checklist](https://github.com/johazores/my-booking-engine/issues/1) — discovered in `20260915T214033Z.md`
+- [SimThing Board](https://github.com/khorum08/SimThing/issues/1332) — discovered in `20260915T215253Z.md`
+- [Spec: recover Person Research extraction without weakening the Result Shape](https://github.com/nicolas-found42/chief-of-staff-demo/issues/418) — discovered in `20260915T214033Z.md`
+- [Spec: temporary voice channels (bot, store, panel)](https://github.com/7Cav/cavbot2/issues/285) — discovered in `20260915T214033Z.md`
+- [Stage 3 terminal: V3 derivation, canon/2, alias and index builders](https://github.com/SFHAJJI/lex/issues/344) — discovered in `20260915T221518Z.md`
+- [Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science](http://arxiv.org/abs/2609.15983v1) — discovered in `20260915T221518Z.md`
+- [Steward journal](https://github.com/kevinrhaas/polecat-platform/issues/56) — discovered in `20260915T221518Z.md`
+- [Stop Auto Memory from retrying low-signal sessions indefinitely](https://github.com/google-gemini/gemini-cli/issues/26522) — discovered in `20260915T221518Z.md`
 - [Structured agent progress and reasoning summaries without exposing hidden chain-of-thought](https://github.com/Agent-Clubhouse/Goobers/issues/3771) — discovered in `20260915T175353Z.md`
-- [Subagent recovery after MAX_TURNS is reported as GOAL success, hiding interruption](https://github.com/google-gemini/gemini-cli/issues/22323) — discovered in `20260915T211444Z.md`
+- [Subagent recovery after MAX_TURNS is reported as GOAL success, hiding interruption](https://github.com/google-gemini/gemini-cli/issues/22323) — discovered in `20260915T221518Z.md`
 - [Support Codex-style SKILL.md discovery and reviewed import](https://github.com/o-psi/helm.vessel.voyage/issues/231) — discovered in `20260915T175353Z.md`
+- [Support Compose `pre_start` hooks as Kubernetes init containers](https://github.com/defenseunicorns/compose-bridge-uds/issues/127) — discovered in `20260915T215253Z.md`
 - [Team Execution's effort-emission comment still claims dispatch-time honoring does not exist](https://github.com/infiquetra/infiquetra-claude-plugins/issues/993) — discovered in `20260915T204208Z.md`
-- [Team Room — Standups, engineering chat, retrospectives and learning](https://github.com/NTinkicht/Tabibi/issues/21) — discovered in `20260915T175353Z.md`
+- [Team Room — Standups, engineering chat, retrospectives and learning](https://github.com/NTinkicht/Tabibi/issues/21) — discovered in `20260915T214033Z.md`
 - [Test suite audit & refactor: replace migration/source-regex guards with durable behavior and contract tests](https://github.com/looksawful/looksawful.ru/issues/765) — discovered in `20260915T184709Z.md`
 - [test: consolidate private git subprocess helpers onto conftest (follow-up to #2123)](https://github.com/mattwwarren/claude-workspace/issues/2195) — discovered in `20260915T205330Z.md`
-- [The $k$-server conjecture is true](http://arxiv.org/abs/2609.15979v1) — discovered in `20260915T211444Z.md`
-- [The CAST-framework: Measure and model social media use as a multi-level phenomenon through real-world applications](http://arxiv.org/abs/2609.15978v1) — discovered in `20260915T211444Z.md`
-- [The Router Within: Eliciting Native Skill Routing from a Frozen LLM](http://arxiv.org/abs/2609.15982v1) — discovered in `20260915T211444Z.md`
+- [The $k$-server conjecture is true](http://arxiv.org/abs/2609.15979v1) — discovered in `20260915T221518Z.md`
+- [The CAST-framework: Measure and model social media use as a multi-level phenomenon through real-world applications](http://arxiv.org/abs/2609.15978v1) — discovered in `20260915T221518Z.md`
+- [The Router Within: Eliciting Native Skill Routing from a Frozen LLM](http://arxiv.org/abs/2609.15982v1) — discovered in `20260915T221518Z.md`
 - [Three liveness ledgers still cite `packages/services/service-ai/…`, a path that exists in NEITHER repo, and repeat the falsified "stale build artifact with no src/" note](https://github.com/objectstack-ai/objectstack/issues/13272) — discovered in `20260915T162957Z.md`
-- [Tool re-execution on task retry has no idempotency guard — duplicate payments, emails, trades possible](https://github.com/crewAIInc/crewAI/issues/5802) — discovered in `20260915T211444Z.md`
+- [Tool re-execution on task retry has no idempotency guard — duplicate payments, emails, trades possible](https://github.com/crewAIInc/crewAI/issues/5802) — discovered in `20260915T214033Z.md`
 - [Tracking Issue for Golden Gate bottling](https://github.com/Homebrew/homebrew-core/issues/303311) — discovered in `20260915T195321Z.md`
-- [Tracking: practical tmux compatibility campaign](https://github.com/demfabris/zz/issues/7) — discovered in `20260915T201553Z.md`
+- [Tracking: practical tmux compatibility campaign](https://github.com/demfabris/zz/issues/7) — discovered in `20260915T212636Z.md`
 - [Two rules in Parallel Tasking via Subagents are unspecified: scan timing, and read isolation](https://github.com/akyachtsman/claude.directives/issues/363) — discovered in `20260915T165548Z.md`
 - [Unauthorized srm-iceberg teardown — 2026-09-15 PM](https://github.com/cldr-steven-matison/DesktopShare/issues/344) — discovered in `20260915T181647Z.md`
 - [v2 platform services: deploy service, gasless publish, grafting, OTA runtime, sandboxes [spec]](https://github.com/NEARBuilders/everything-dev/issues/274) — discovered in `20260915T192649Z.md`
-- [V2 — CAP12-I4 exact scenario acceptance](https://github.com/iamaman11/part-crm-emai-profile/issues/584) — discovered in `20260915T202811Z.md`
-- [V5 feature-completion — coordinated five-agent tracker](https://github.com/11ll11l1l1l/BibleQuest/issues/185) — discovered in `20260915T204208Z.md`
+- [V2 — CAP12-I4 exact scenario acceptance](https://github.com/iamaman11/part-crm-emai-profile/issues/584) — discovered in `20260915T221518Z.md`
+- [V5 feature-completion — coordinated five-agent tracker](https://github.com/11ll11l1l1l/BibleQuest/issues/185) — discovered in `20260915T215253Z.md`
 - [Verify the launch, cells, discovery, fake-driver, policy, archive, console and budget assumptions for the Nova onboarding](https://github.com/C5C3/cobaltcore/issues/1015) — discovered in `20260915T191346Z.md`
 - [Voice: session handoff after the 2026-09-15 listening pass — dropouts, dismissal, deploy decision, open follow-ups](https://github.com/jaspercurry/JTS/issues/5208) — discovered in `20260915T202811Z.md`
-- [Watch findings integration backlog — architecture/security conformance](https://github.com/Zoverions/AXIOM-MESH/issues/1575) — discovered in `20260915T211444Z.md`
+- [Watch findings integration backlog — architecture/security conformance](https://github.com/Zoverions/AXIOM-MESH/issues/1575) — discovered in `20260915T221518Z.md`
 - [Wayfinder map: chartagent library + hosted product](https://github.com/thearcscode/chartagent/issues/16) — discovered in `20260915T165548Z.md`
 - [Windows client](https://github.com/nettrash/family.connect/issues/64) — discovered in `20260915T202811Z.md`
 - [Workflow Immune System — OpenAmer's self-healing UI automation](https://github.com/openamer/openamer/issues/18) — discovered in `20260915T192649Z.md`
-- [Компоситорные перф-новеллы: аддитивный ретаргет суперпозицией, tail-handoff, phase-shift базис staggers](https://github.com/Labpics-Team/lab-motion/issues/242) — discovered in `20260915T211444Z.md`
+- [Компоситорные перф-новеллы: аддитивный ретаргет суперпозицией, tail-handoff, phase-shift базис staggers](https://github.com/Labpics-Team/lab-motion/issues/242) — discovered in `20260915T221518Z.md`
 - [据点交易出现错误导致终止](https://github.com/MaaEnd/MaaEnd/issues/5780) — discovered in `20260915T162957Z.md`
-- [🐛 Stop the Stop-verdict gate from firing inside subagents](https://github.com/Dev10x-Guru/Dev10x-Claude/issues/1314) — discovered in `20260915T155451Z.md`
-- [🐝 Hive Advisory Report](https://github.com/llm-d-incubation/llm-d-fast-model-actuation/issues/580) — discovered in `20260915T195321Z.md`
-- [📊 AI CLI Tools Digest 2026-09-10](https://github.com/JohnGao818/agents-radar/issues/907) — discovered in `20260915T211444Z.md`
-- [📊 AI CLI Tools Digest 2026-09-15](https://github.com/sikm-lqs/agents-radar/issues/212) — discovered in `20260915T211444Z.md`
+- [🐝 Hive Advisory Report](https://github.com/llm-d-incubation/llm-d-fast-model-actuation/issues/580) — discovered in `20260915T212636Z.md`
+- [📊 AI CLI Tools Digest 2026-09-10](https://github.com/JohnGao818/agents-radar/issues/907) — discovered in `20260915T221518Z.md`
+- [📊 AI CLI Tools Digest 2026-09-15](https://github.com/sikm-lqs/agents-radar/issues/212) — discovered in `20260915T221518Z.md`
 - [🔴 SM Flow Regression RCA — REVIEW_WAITを実装WIP誤計上し8時間Queue starvationを見逃した](https://github.com/sadouninc/Sado-Investment-Lab/issues/645) — discovered in `20260915T175353Z.md`
 - [🚨 Zero Day Pulse — Active Vulnerability Tracker](https://github.com/peleduri/zero-day-pulse/issues/7) — discovered in `20260915T211444Z.md`
-- [🤖 Claude Coordination Board (2026-09-08)](https://github.com/benbaichmankass/Metis-Insights/issues/11336) — discovered in `20260915T172617Z.md`
+- [🤖 Claude Coordination Board (2026-09-08)](https://github.com/benbaichmankass/Metis-Insights/issues/11336) — discovered in `20260915T212636Z.md`
 - [🤝 Agent coordination channel (standing)](https://github.com/d-hinders/Haven-AI/issues/1289) — discovered in `20260915T204208Z.md`
-- [🦞 OpenClaw Ecosystem Digest 2026-09-10](https://github.com/datnguyenquy94/news-radar/issues/435) — discovered in `20260915T211444Z.md`
+- [🦞 OpenClaw Ecosystem Digest 2026-09-10](https://github.com/datnguyenquy94/news-radar/issues/435) — discovered in `20260915T221518Z.md`
 
 ## Collector errors
 
