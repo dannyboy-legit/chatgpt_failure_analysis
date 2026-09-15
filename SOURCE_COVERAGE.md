@@ -1,6 +1,6 @@
 # Source Coverage Ledger
 
-Updated: 2026-09-15 14:16Z
+Updated: 2026-09-15 15:15Z
 
 Purpose: prevent the investigation from repeatedly searching the same few sources while silently leaving entire evidence classes unchecked. A category is not 'covered' merely because one search result was read. Each hourly research pass should add newly checked sources, contradictions, and remaining gaps.
 
@@ -46,16 +46,17 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - long-horizon context-management work
 - U-Fold: Dynamic Intent-Aware Context Folding for User-Centric Agents (ACL Findings 2026)
 - MT-OSC: One-off Sequential Condensation (ACL Findings 2026)
-- Chain-of-Interactions dialogue summarization (EMNLP Findings 2025; surfaced, deeper methods review pending)
+- Chain-of-Interactions dialogue summarization (EMNLP Findings 2025; deeper methods review pending)
 
-### Multi-turn structure / evolving intent
+### Multi-turn structure / evolving intent / state
 - LLMs Get Lost in Multi-Turn Conversation (ICLR 2026)
 - StructFlowBench (ACL Findings 2025)
 - EvolIF / One Battle After Another (ACL 2026)
 - MultiChallenge (ACL Findings 2025)
-- mtRAG / MTRAG-UN (TACL 2025 / ACL Findings 2026; surfaced, deeper applicability review pending)
+- mtRAG / MTRAG-UN (TACL 2025 / ACL Findings 2026; deeper applicability review pending)
+- StateMemBench / Can Agent Memory Systems Track Evolving State? (2026 preprint; abstract/results checked, methods/ablations pending)
 
-### Instruction and constraint following
+### Instruction and constraint following / verification
 - AgentIF
 - DriftBench / Models Recall What They Violate
 - FollowBench
@@ -63,6 +64,8 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - CFBench
 - EIFBench
 - Instruction Hierarchy
+- NSVIF + VIFBENCH / Neuro-Symbolic Verification on Instruction Following (Microsoft Research / 2026 preprint)
+- IF-CRITIC (ACL 2026; surfaced, deeper comparison with NSVIF pending)
 
 ### Agent/tool reliability and recovery
 - tau-bench
@@ -89,20 +92,24 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - WithAnyone
 - MMIG-Bench
 - MultiRef
+- TRACE-Bench: Decomposing and Diagnosing Multi-Reference Image Generation (2026 preprint; abstract/operator result checked, full diagnostic tree pending)
 - T2I-CompBench
 - InstantID
 - PhotoMaker
 - ConsistentID
 - Persistent Identity Preservation benchmark/preprint
 - Selectively Informative Description / undesired embedding entanglement (CVPR 2024)
+- ComposeMe: Attribute-Specific Image Prompts (SIGGRAPH Asia 2025 / arXiv)
+- MOSAIC multi-subject alignment/disentanglement (2025 preprint; surfaced, deeper review pending)
 - DynamicID (ICCV 2025; surfaced, deeper review pending)
 - CogCanvas (2026 preprint; surfaced, deeper review pending)
 - DEADiff reference style/semantic disentanglement (CVPR 2024; relevant analogy, not identity-specific)
 
-### Iterative / multi-turn image editing
+### Iterative / multi-turn image editing and QA
 - FreqEdit: Preserving High-Frequency Features for Robust Multi-Turn Image Editing (CVPR 2026)
 - Improving Editability in Image Generation with Layer-wise Memory + Multi-Edit Bench (CVPR 2025)
 - AnchorEdit: Maintaining Temporal Consistency in Multi-turn Image Editing via Causal Memory (2026 preprint)
+- Banana100: iterative degradation + failure of 21 NR-IQA metrics (2026 preprint)
 - ProductConsistency (2026 preprint; product identity, surfaced, deeper review pending)
 
 ## Official documentation / product evidence
@@ -131,17 +138,21 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 ## Current highest-value falsification tests
 
 1. Compare compact authoritative state vs raw long-thread context on the same Susan task.
-2. Compare nearest-angle single face reference vs multiple face references for identity fidelity and expression/pose freedom.
-3. Verify reference pixel transport end-to-end using an unmistakable reference-control marker.
-4. Run independent artifact QA rather than asking the generator to approve itself.
-5. Measure pass^k across varied Susan scenes rather than judging one successful generation.
-6. Invalidate and refuse exact retry fingerprints after a failed generation/tool call.
-7. Compare recursive edit-from-latest against edit-from-last-accepted-base + immutable canonical identity anchor.
-8. Measure unrequested-region drift separately from requested edit success.
+2. Compare narrative summary vs explicit supersession/state graph on the same revised multi-turn task.
+3. Compare nearest-angle single face reference vs multiple face references for identity fidelity and expression/pose freedom.
+4. Verify reference pixel transport end-to-end using an unmistakable reference-control marker.
+5. Run independent constraint/artifact QA rather than asking the generator to approve itself.
+6. Measure pass^k across varied Susan scenes rather than judging one successful generation.
+7. Invalidate and refuse exact retry fingerprints after a failed generation/tool call.
+8. Compare recursive edit-from-latest against edit-from-last-accepted-base + immutable canonical identity anchor.
+9. Measure unrequested-region drift separately from requested edit success.
+10. Score multi-reference tasks by Anchor/Disentangle/Apply/Compose operators rather than one holistic quality score.
 
-## Automation state needing inspection
+## Automation state
 
-At the 14:16Z research pass, `runs/` contained the prior ChatGPT research note but no deterministic quarter-hour collector artifacts. Repository read/write access works. The collector workflow/logs therefore need direct inspection before treating that source-discovery channel as operational.
+Correction to the 14:16Z note: the deterministic collector was mistakenly sought under `runs/`, but `research.yml` and `collect_sources.py` write timestamped artifacts under `source_queue/`. Direct repository inspection at 15:15Z found multiple queue files from 12:58Z through at least 14:56Z. The collector is operational. The earlier claim that collector artifacts were absent is retracted as an inspection-path error.
+
+Observed timestamps need not equal cron minutes exactly because scheduled workflow dispatch can be delayed. Health should be assessed by continuing source_queue creation/commits and collector content quality, not exact dispatch second.
 
 ## Coverage rule
 
