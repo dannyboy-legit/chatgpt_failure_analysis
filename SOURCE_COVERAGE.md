@@ -1,6 +1,6 @@
 # Source Coverage Ledger
 
-Updated: 2026-09-15 16:17Z
+Updated: 2026-09-15 17:18Z
 
 Purpose: prevent the investigation from repeatedly searching the same few sources while silently leaving entire evidence classes unchecked. A category is not 'covered' merely because one search result was read. Each hourly research pass should add newly checked sources, contradictions, and remaining gaps.
 
@@ -48,13 +48,14 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - MT-OSC: One-off Sequential Condensation (ACL Findings 2026)
 - Chain-of-Interactions dialogue summarization (EMNLP Findings 2025; deeper methods review pending)
 
-### Multimodal long-context / visual forgetting — NEWLY EXPANDED
+### Multimodal long-context / visual forgetting
 - MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models (2026 preprint; abstract/results checked, methods/ablations pending)
 - Remember-R1: Mitigating Long-Context Visual Forgetting through Reinforcement Learning (2026 preprint; abstract checked, attention/ablation details pending)
 - Take-along Visual Conditioning for Multi-modal Long CoT Reasoning (2025 preprint; key image-removal ablation checked)
 - Learning When to Look / strategic perception (2025 preprint; surfaced, deeper review pending)
 - More Thought, Less Accuracy? / VAPO (2025 preprint; surfaced, deeper review pending)
 - Multimodal Retrieval Heads in Long-Context VLMs (2026 preprint; surfaced, causal masking result checked at abstract level)
+- Visually-Guided Policy Optimization (ACL 2026; peer-reviewed corroboration of temporal visual forgetting and visual-attention reinforcement)
 
 ### Multi-turn structure / evolving intent / state
 - LLMs Get Lost in Multi-Turn Conversation (ICLR 2026)
@@ -75,6 +76,16 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - Instruction Hierarchy
 - NSVIF + VIFBENCH / Neuro-Symbolic Verification on Instruction Following (Microsoft Research / 2026 preprint)
 - IF-CRITIC (ACL 2026; surfaced, deeper comparison with NSVIF pending)
+- Many-Tier Instruction Hierarchy / ManyIH-Bench (2026 preprint; up to 12 privilege levels; ~40% frontier accuracy reported; full ablations pending)
+- IH-Benchmark (2026 preprint; 44 constraint families, system-user and user-tool conflicts; hierarchy robustness varies strongly by conflict surface)
+- Reasoning Up the Instruction Ladder / VerIH (Findings ACL 2026; explicit hierarchy reasoning gives ~20% absolute conflict-setting improvement)
+- IH-Challenge (OpenAI-led 2026 preprint/dataset; GPT-5-Mini hierarchy robustness reported +10 points across 16 evals)
+- RECAST (ICLR 2026; multi-constraint training beyond 10 constraints; automatic verification)
+- On the Paradoxical Interference between Instruction-Following and Task Solving (2026 preprint; self-evident added constraints can reduce task performance; deeper review pending)
+- MCJudgeBench (2026 preprint; constraint-level judge correctness and stability are distinct; partial/no detection remains difficult)
+- STAIF (2026 preprint; separates soft and hard constraint optimization)
+- IFMTBench (2026 preprint; deterministic gating + continuous rubric scoring, multiplicative combination)
+- MDP-GRPO (ACL 2026; strict multi-constraint satisfaction and violation-sensitive optimization)
 
 ### Agent/tool reliability and recovery
 - tau-bench
@@ -118,6 +129,7 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - DynamicID (ICCV 2025; surfaced, deeper review pending)
 - CogCanvas (2026 preprint; surfaced, deeper review pending)
 - DEADiff reference style/semantic disentanglement (CVPR 2024; relevant analogy, not identity-specific)
+- InstaFace (IEEE FG 2026; single-image identity preservation with separate expression/pose/lighting control; deeper methods review pending)
 
 ### Iterative / multi-turn image editing and QA
 - FreqEdit: Preserving High-Frequency Features for Robust Multi-Turn Image Editing (CVPR 2026)
@@ -125,6 +137,7 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 - AnchorEdit: Maintaining Temporal Consistency in Multi-turn Image Editing via Causal Memory (2026 preprint)
 - Banana100: iterative degradation + failure of 21 NR-IQA metrics (2026 preprint)
 - ProductConsistency (2026 preprint; product identity, surfaced, deeper review pending)
+- VIBE: Visual Instruction Benchmark for Image Editing (Microsoft / 2026 preprint; visual-instruction performance degrades with task difficulty; task-specific LMM judging)
 
 ## Official documentation / product evidence
 - OpenAI: Creating images with ChatGPT (multiple-reference guidance and explicit reference roles)
@@ -165,6 +178,10 @@ Purpose: prevent the investigation from repeatedly searching the same few source
 12. Compare text-compressed identity state against immutable retrievable canonical pixels + symbolic role state.
 13. Compare an accumulated execution packet against a freshly recompiled active-only packet after override/rollback.
 14. Classify failed routes as LOCAL_REPAIR vs ROUTE_INVALIDATING and measure whether forced global replanning reduces repeated failures.
+15. Compare flat constraint lists against an explicit authority DAG on tasks containing source conflicts.
+16. Compare maximal/redundant action prompts against normalized non-redundant action packets while keeping all hard requirements semantically equivalent.
+17. Compare holistic visual QA against per-constraint PASS/PARTIAL/FAIL QA with deterministic gates where possible.
+18. Test judge stability under semantically neutral prompt/artifact perturbations before trusting a semantic QA axis.
 
 ## Automation state
 
