@@ -1,0 +1,67 @@
+{
+  "character": "Susan Supreme",
+  "schema_version": 1,
+  "notes": "Replace placeholder paths/checksums with canonical Susan reference assets. Do not commit private reference pixels to a public repository unless intentional.",
+  "references": [
+    {
+      "reference_id": "SUSAN_FACE_FRONT_V5",
+      "path": "references/susan/private/face_front.png",
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_class": "canonical_face",
+      "allowed": ["facial_geometry"],
+      "forbidden": ["pose", "physique", "wardrobe", "environment", "expression", "lighting", "camera"],
+      "authority_rank": 100,
+      "canonical": true,
+      "view": "front",
+      "version": "v5"
+    },
+    {
+      "reference_id": "SUSAN_FACE_THREE_QUARTER_V5",
+      "path": "references/susan/private/face_three_quarter.png",
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_class": "canonical_face",
+      "allowed": ["facial_geometry"],
+      "forbidden": ["pose", "physique", "wardrobe", "environment", "expression", "lighting", "camera"],
+      "authority_rank": 100,
+      "canonical": true,
+      "view": "three_quarter",
+      "version": "v5"
+    },
+    {
+      "reference_id": "SUSAN_FACE_PROFILE_V5",
+      "path": "references/susan/private/face_profile.png",
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_class": "canonical_face",
+      "allowed": ["facial_geometry"],
+      "forbidden": ["pose", "physique", "wardrobe", "environment", "expression", "lighting", "camera"],
+      "authority_rank": 100,
+      "canonical": true,
+      "view": "profile",
+      "version": "v5"
+    },
+    {
+      "reference_id": "SUSAN_PHYSIQUE_FRONT_V5",
+      "path": "references/susan/private/physique_front.png",
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_class": "canonical_physique",
+      "allowed": ["anatomy", "silhouette"],
+      "forbidden": ["facial_geometry", "pose", "wardrobe", "environment", "expression", "lighting", "camera"],
+      "authority_rank": 100,
+      "canonical": true,
+      "view": "front",
+      "version": "v5"
+    },
+    {
+      "reference_id": "SUSAN_PHYSIQUE_PROFILE_V5",
+      "path": "references/susan/private/physique_profile.png",
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_class": "canonical_physique",
+      "allowed": ["anatomy", "silhouette"],
+      "forbidden": ["facial_geometry", "pose", "wardrobe", "environment", "expression", "lighting", "camera"],
+      "authority_rank": 100,
+      "canonical": true,
+      "view": "profile",
+      "version": "v5"
+    }
+  ]
+}
