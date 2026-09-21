@@ -1,6 +1,6 @@
 # Source Queue Index
 
-Updated: 2026-09-21T10:23:01Z
+Updated: 2026-09-21T11:22:36Z
 
 This is a mechanical index, not an analysis. Sources remain unverified until the hourly ChatGPT research pass reads and evaluates them.
 
